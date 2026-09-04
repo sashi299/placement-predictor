@@ -1,0 +1,16 @@
+{
+  "html_title": "Streamlit",
+  "h1_title": "Placement Readiness Digital Twin",
+  "subtitle_present": true,
+  "slider_count": 8,
+  "button_visible": true,
+  "track_result": "Predicted Track: Service_Ready",
+  "readiness_score": "70.0/100",
+  "status_alerts": [
+    "Predicted Track: Service_Ready",
+    "Good Placement Readiness"
+  ],
+  "confidence_header_visible": true,
+  "company_header_visible": true,
+  "main_text": "Deploy\nPlacement Readiness Digital Twin\n\nPredict placement readiness and company fit.\n\nCGPA\n\n7.00\n\n5.00\n\n10.00\n\nAptitude Score\n\n50\n\n0\n\n100\n\nCoding Score\n\n50\n\n0\n\n100\n\nDSA Score\n\n50\n\n0\n\n100\n\nCommunication Score\n\n50\n\n0\n\n100\n\nProjects Count\n\n2\n\n0\n\n10\n\nInternships\n\n0\n\n0\n\n5\n\nActive Backlogs\n\n0\n\n0\n\n5\n\nPredict Placement Readiness\n\nPrediction Result\n\nPredicted Track: Service_Ready\n\nReadiness Score\n\n70.0/100\n\nGood Placement Readiness\n\nPrediction Confidence\n\nNot_Placed: 30.00%\n\nProduct_Ready: 1.00%\n\nService_Ready: 69.00%\n\nTop Company Matches\n\nTCS: 54.0%\n\nAccenture: 54.0%\n\nGoogle: 49.0%\n\nInfosys: 45.0%\n\nWipro: 45.0%\n\nMicrosoft: 45.0%\n\nAdobe: 45.0%\n\nAmazon: 44.0%"
+}
