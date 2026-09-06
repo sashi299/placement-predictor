@@ -1,8 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from pathlib import Path
 
-df = pd.read_csv("student_dataset_v3.csv")
+BASE_DIR = Path(__file__).resolve().parent
+
+df = pd.read_csv(BASE_DIR / "student_dataset_v3.csv")
 
 X = df.drop(
     columns=[
@@ -41,8 +44,8 @@ model.fit(X_train, y_train)
 
 import joblib
 
-joblib.dump(model, "placement_model.pkl")
-joblib.dump(le, "label_encoder.pkl")
+joblib.dump(model, BASE_DIR / "placement_model.pkl")
+joblib.dump(le, BASE_DIR / "label_encoder.pkl")
 
 print("Model saved successfully!")
 
@@ -73,6 +76,9 @@ plt.barh(
     feature_importance["importance"][:15]
 )
 plt.title("Top Feature Importances")
+plt.tight_layout()
+plt.savefig(BASE_DIR / "feature_importance_training.png", dpi=150)
+plt.close()
 
 df["placement_readiness_score"] = (
     0.20 * df["technical_score"] +

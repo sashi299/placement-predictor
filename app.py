@@ -1,7 +1,10 @@
-﻿import streamlit as st
+import streamlit as st
 import pandas as pd
 import joblib
+from pathlib import Path
 from analytics_dashboard import render_analytics_dashboard
+
+BASE_DIR = Path(__file__).resolve().parent
 
 st.set_page_config(
     page_title="Placement Portal & Digital Twin",
@@ -24,8 +27,8 @@ if page == "📊 Placement Analytics Dashboard":
 
 else:
     # ------------------- DIGITAL TWIN PREDICTOR -------------------
-    model = joblib.load("placement_model.pkl")
-    le = joblib.load("label_encoder.pkl")
+    model = joblib.load(BASE_DIR / "placement_model.pkl")
+    le = joblib.load(BASE_DIR / "label_encoder.pkl")
     
     st.title("Placement Readiness Digital Twin")
     st.write("Predict student placement readiness and company fit.")

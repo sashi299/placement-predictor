@@ -1,12 +1,16 @@
-﻿import streamlit as st
+import streamlit as st
 import pandas as pd
 import numpy as np
+from pathlib import Path
 import plotly.express as px
 import plotly.graph_objects as go
 
+BASE_DIR = Path(__file__).resolve().parent
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv("student_placement_analytics.csv")
+    csv_path = BASE_DIR / "student_placement_analytics.csv"
+    df = pd.read_csv(csv_path)
     return df
 
 def render_analytics_dashboard():

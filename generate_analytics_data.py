@@ -1,9 +1,11 @@
-﻿import pandas as pd
+import pandas as pd
 import numpy as np
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent
 np.random.seed(42)
 
-df = pd.read_csv("student_dataset_v3.csv")
+df = pd.read_csv(BASE_DIR / "student_dataset_v3.csv")
 
 branches = ["Computer Science (CSE)", "Information Technology (IT)", "Electronics & Comm (ECE)", 
             "Data Science & AI (AI/DS)", "Electrical Engg (EEE)", "Mechanical Engg (ME)"]
@@ -72,7 +74,7 @@ def assign_primary_skill(row):
 
 df["primary_skill"] = df.apply(assign_primary_skill, axis=1)
 
-output_file = "student_placement_analytics.csv"
+output_file = BASE_DIR / "student_placement_analytics.csv"
 df.to_csv(output_file, index=False)
 print(f"Enriched analytics dataset saved to {output_file} with shape {df.shape}")
 print("Sample summary:")

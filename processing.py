@@ -1,7 +1,10 @@
 
 import pandas as pd
+from pathlib import Path
 
-df = pd.read_csv("student_dataset_v2.csv")
+BASE_DIR = Path(__file__).resolve().parent
+
+df = pd.read_csv(BASE_DIR / "student_dataset_v2.csv")
 
 
 df["technical_score"] = (
@@ -37,4 +40,4 @@ print(df[[
     "resume_strength"
 ]].head(20))
 
-df.to_csv("student_dataset_v3.csv", index=False)
+df.to_csv(BASE_DIR / "student_dataset_v3.csv", index=False)
