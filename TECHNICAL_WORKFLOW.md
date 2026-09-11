@@ -1,4 +1,4 @@
-﻿# Placement Readiness Digital Twin & Analytics Portal
+# Placement Readiness Digital Twin & Analytics Portal
 ## End-to-End Technical Workflow & Architecture
 
 ![Technical Architecture Workflow](technical_workflow_diagram.png)
@@ -38,12 +38,14 @@
 ---
 
 ## 4. Placement Analytics Dashboard (`analytics_dashboard.py`)
-- **Visualization Engine**: Plotly Express & Plotly Graph Objects integrated into 5 responsive tabs:
+- **Visualization Engine**: Plotly Express & Plotly Graph Objects integrated into 7 responsive tabs:
   1. **Branch-wise Trends**: Placement percentage comparison and placed vs. unplaced headcount distribution.
   2. **Salary Statistics**: Continuous CTC histogram, marginal box plots, salary tier donut chart, and CGPA vs. package bubble scatter.
   3. **Skills Intelligence**: Primary skill domain placement rates and placed vs. unplaced cohort benchmark gap analysis.
   4. **Recruiter Insights**: Total hires per company, average CTC offered, and cross-branch hiring density heatmap.
-  5. **Data Explorer**: Real-time filtered student records table and one-click CSV dataset export.
+  5. **Skill-Gap Recommender**: Student-level competency gap analysis against recruiter minimum cutoffs (`recruiter_requirements.csv`), color-coded deficit charts, prioritized shortfalls, and best-fit company rankings.
+  6. **Alumni Outcome Tracker**: 1–5 year post-placement career analytics (`alumni_outcomes.csv`), salary growth curves, starting vs current CTC bubble scatter, promotions, and domain/employer mobility.
+  7. **Data Explorer**: Real-time filtered student records table and one-click CSV dataset export.
 
 ---
 
