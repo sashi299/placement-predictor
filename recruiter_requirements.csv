@@ -1,0 +1,15 @@
+company,coding_score,dsa_score,sql_score,python_score,dbms_score,os_score,communication_score,aptitude_score,cgpa
+Google,85,85,70,75,70,75,75,80,8.0
+Microsoft,80,85,70,70,75,75,75,75,7.5
+Amazon,80,80,70,70,70,70,70,75,7.5
+Adobe,80,80,65,75,65,70,70,70,7.5
+Uber,85,85,70,75,70,75,70,80,8.0
+Atlassian,80,80,70,70,70,70,75,75,7.5
+Cisco,75,75,65,70,70,75,70,70,7.0
+TCS,55,50,50,50,50,50,60,65,6.5
+Infosys,55,50,50,50,50,50,65,60,6.5
+Wipro,50,50,50,50,50,50,60,60,6.0
+Accenture,55,50,55,50,50,50,65,65,6.5
+Cognizant,55,50,50,50,50,50,60,60,6.5
+Capgemini,50,50,50,50,50,50,60,60,6.0
+LTI Mindtree,55,55,50,50,50,50,60,60,6.5
