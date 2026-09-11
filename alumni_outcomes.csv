@@ -1,0 +1,1401 @@
+student_id,years_since_placement,current_designation,current_company,current_ctc_lpa,promotions_count,switched_domain,switched_company
+S03483,2,Data Analyst,Infosys,13.24,1,False,False
+S00532,3,Cloud Engineer,Accenture,15.98,1,False,False
+S01054,3,Systems Engineer,Cognizant,12.94,1,True,False
+S00687,2,Cloud Engineer,Microsoft,63.84,1,True,False
+S04418,1,Data Analyst,Uber,67.3,1,False,True
+S00690,1,Junior DevOps Engineer,Accenture,9.3,0,False,False
+S03110,1,Junior DevOps Engineer,Accenture,9.3,0,False,False
+S04086,5,Engineering Manager,TCS,26.0,4,False,True
+S00177,1,Junior DevOps Engineer,Wipro,7.27,0,False,False
+S01262,1,Graduate Trainee Engineer,Infosys,8.26,0,False,False
+S04773,3,Consultant,Zomato,18.05,1,False,True
+S03987,1,Associate Analyst,Accenture,9.49,0,False,False
+S01576,1,Associate Software Engineer,Accenture,9.91,0,False,False
+S03973,1,Junior DevOps Engineer,TCS,8.61,0,False,False
+S02203,3,Senior Consultant,Atlassian,19.33,2,True,True
+S01904,2,Systems Engineer,Oracle,66.7,1,False,True
+S01222,5,Data Science Lead,Infosys,22.0,3,True,True
+S00330,2,Senior DevOps Engineer,Paytm,14.15,2,False,True
+S01232,2,Associate Analyst,TCS,11.66,0,False,False
+S00261,2,Software Engineer,TCS,9.87,1,False,False
+S03226,4,Systems Engineer,Adobe,15.89,1,False,True
+S03866,3,Senior Data Analyst,TCS,16.24,2,False,False
+S01037,3,Senior Data Analyst,TCS,15.03,2,False,False
+S04988,5,Senior DevOps Engineer,Wipro,113.29,2,False,True
+S03243,5,Technical Lead,TCS,16.77,3,False,False
+S00929,1,Associate Software Engineer,Uber,49.74,0,False,False
+S00652,1,Junior DevOps Engineer,Capgemini,9.2,0,False,False
+S00844,2,Senior Consultant,Atlassian,17.12,2,False,True
+S00263,2,Associate Software Engineer,Zomato,58.34,0,True,True
+S03769,5,Principal Architect,Wipro,23.64,4,False,False
+S04485,2,Data Analyst,Capgemini,11.07,1,False,False
+S04736,3,DevOps Architect,Swiggy,15.97,3,True,True
+S02426,4,Lead Software Engineer,Wipro,19.46,3,False,True
+S01470,1,Associate Analyst,Flipkart,12.61,0,False,True
+S04694,2,Graduate Trainee Engineer,Paytm,62.12,0,False,True
+S02076,5,Senior DevOps Engineer,Atlassian,19.75,2,False,True
+S03347,4,Senior Software Engineer,Salesforce,18.33,2,True,True
+S01630,1,Graduate Trainee Engineer,Google,43.02,0,False,False
+S02218,5,DevOps Architect,Wipro,17.04,3,False,False
+S04903,1,Graduate Trainee Engineer,Infosys,10.47,0,True,False
+S04159,1,Graduate Trainee Engineer,Cognizant,9.05,0,True,False
+S00750,5,Lead Software Engineer,Accenture,24.93,3,False,True
+S03003,5,Technical Lead,Wipro,20.11,3,False,False
+S01512,3,Data Analyst,Accenture,12.95,1,False,False
+S02949,2,Consultant,Razorpay,70.58,1,True,True
+S01881,1,Junior DevOps Engineer,Infosys,8.97,0,False,False
+S02477,2,Cloud Engineer,Infosys,12.48,1,False,False
+S04789,5,Lead Software Engineer,Infosys,19.71,3,False,False
+S01475,2,Junior DevOps Engineer,Wipro,8.88,0,True,False
+S04103,2,Senior DevOps Engineer,Accenture,13.02,2,False,False
+S02759,3,Senior Data Analyst,Zomato,83.25,2,True,True
+S01256,3,Data Science Lead,Uber,80.41,3,False,False
+S03258,4,Lead Software Engineer,Razorpay,18.09,3,True,True
+S03958,4,Data Science Lead,Accenture,16.82,3,False,False
+S03618,4,Consultant,Salesforce,16.56,1,False,True
+S03427,4,Senior Software Engineer,Accenture,16.12,2,False,False
+S01296,1,Associate Software Engineer,Atlassian,42.74,0,False,False
+S01662,5,Staff Software Engineer,Salesforce,24.03,4,False,True
+S01657,2,Senior Consultant,Amazon,72.96,2,False,False
+S03607,2,Cloud Engineer,TCS,13.56,1,False,True
+S03842,2,Consultant,Accenture,13.25,1,False,False
+S00686,4,Systems Engineer,Microsoft,16.33,1,False,True
+S04153,5,Engineering Manager,Paytm,17.6,4,False,True
+S01143,3,Lead Software Engineer,Infosys,18.07,3,False,False
+S03814,2,Associate Software Engineer,Salesforce,11.82,0,True,True
+S03334,3,Senior Data Analyst,Amazon,18.86,2,False,True
+S02667,2,Systems Engineer,Infosys,9.9,1,False,False
+S00171,2,Data Analyst,LTI Mindtree,12.2,1,False,False
+S02639,2,Cloud Engineer,TCS,12.48,1,False,False
+S01430,1,Associate Analyst,Atlassian,12.16,0,False,True
+S03076,3,Senior Consultant,Zomato,18.51,2,True,True
+S01268,3,Consultant,Uber,15.1,1,False,True
+S02311,1,Associate Analyst,Infosys,8.83,0,True,False
+S00066,5,Staff Software Engineer,Adobe,24.4,4,False,True
+S03755,4,Senior Consultant,Microsoft,18.83,2,True,True
+S00488,1,Junior DevOps Engineer,LTI Mindtree,9.4,0,False,False
+S03717,2,Associate Software Engineer,Capgemini,13.56,0,False,True
+S04854,3,Senior DevOps Engineer,LTI Mindtree,14.3,2,False,False
+S01857,3,Consultant,LTI Mindtree,66.02,1,False,True
+S02985,1,Associate Analyst,Amazon,49.22,0,False,False
+S02599,5,DevOps Architect,Infosys,19.31,3,False,False
+S02627,3,Senior DevOps Engineer,Cognizant,17.2,2,False,False
+S02655,4,Data Analyst,Oracle,18.9,1,True,True
+S00650,2,Consultant,Microsoft,57.24,1,False,False
+S02153,4,Systems Engineer,Atlassian,97.04,1,True,True
+S02544,1,Systems Engineer,Accenture,10.16,1,True,False
+S03296,4,Senior DevOps Engineer,Infosys,16.58,2,False,False
+S00128,3,Senior Consultant,LTI Mindtree,17.78,2,False,True
+S00704,4,Data Science Lead,Paytm,18.13,3,False,True
+S03192,2,Consultant,Cognizant,11.94,1,True,False
+S02829,5,Lead Software Engineer,Infosys,18.65,3,False,False
+S02889,4,Senior Software Engineer,Atlassian,17.06,2,False,True
+S03063,1,Associate Analyst,Accenture,9.02,0,False,False
+S01160,4,Senior DevOps Engineer,Cognizant,17.98,2,False,False
+S02615,3,Cloud Engineer,Google,14.46,1,False,True
+S01076,3,Systems Engineer,Wipro,15.46,1,True,False
+S03906,2,Associate Software Engineer,Flipkart,62.91,0,False,True
+S01264,1,Associate Software Engineer,TCS,9.51,0,True,False
+S00555,5,Engineering Manager,Microsoft,23.16,4,False,True
+S01842,2,Data Analyst,Wipro,11.75,1,False,False
+S03335,5,Lead Software Engineer,TCS,23.05,3,False,True
+S03386,2,Systems Engineer,Cisco,59.76,1,False,False
+S01961,3,Senior Consultant,Razorpay,17.38,2,False,True
+S03646,2,Cloud Engineer,Wipro,12.53,1,True,False
+S03797,3,Systems Engineer,TCS,16.52,1,False,True
+S00731,5,Staff Software Engineer,Flipkart,19.92,4,False,True
+S02767,3,Senior DevOps Engineer,Accenture,16.9,2,True,False
+S04404,4,DevOps Architect,Accenture,20.26,3,False,True
+S00676,2,Senior Software Engineer,Oracle,16.72,2,False,True
+S00458,2,Software Engineer,Flipkart,70.74,1,False,True
+S00312,3,Consultant,Uber,15.83,1,False,True
+S00588,2,Associate Analyst,Infosys,12.0,0,True,False
+S03044,3,Data Analyst,LTI Mindtree,14.64,1,False,False
+S03594,2,Associate Analyst,Wipro,10.6,0,True,False
+S03301,2,Graduate Trainee Engineer,Cognizant,10.7,0,False,False
+S01740,2,Associate Analyst,Swiggy,13.28,0,False,True
+S00774,2,Systems Engineer,TCS,15.14,1,False,True
+S00236,1,Associate Software Engineer,Infosys,10.22,0,True,False
+S02339,5,Senior DevOps Engineer,Swiggy,112.41,2,False,True
+S00554,4,Consultant,Capgemini,17.63,1,False,True
+S04282,3,Software Engineer,Cisco,12.49,1,False,True
+S02150,4,Senior Software Engineer,Amazon,88.01,2,False,True
+S01140,5,Technical Lead,Capgemini,22.94,3,False,True
+S03294,3,Senior DevOps Engineer,Amazon,17.34,2,True,True
+S01785,1,Associate Software Engineer,Paytm,12.82,0,False,True
+S02249,2,Consultant,Cognizant,10.48,1,True,False
+S02155,1,Software Engineer,Google,12.26,1,True,True
+S01915,2,Senior Consultant,Adobe,64.01,2,False,False
+S01845,5,Engineering Manager,Oracle,109.33,4,False,True
+S01546,1,Associate Analyst,Infosys,10.53,0,True,False
+S04067,3,Senior Consultant,Adobe,86.52,2,False,True
+S00605,1,Systems Engineer,TCS,10.91,1,False,False
+S04399,4,Senior DevOps Engineer,Swiggy,18.32,2,False,True
+S04613,1,Cloud Engineer,Microsoft,53.44,1,True,False
+S01034,2,Data Analyst,Infosys,13.14,1,False,False
+S04747,3,Software Engineer,LTI Mindtree,14.06,1,True,False
+S03936,1,Associate Software Engineer,Uber,53.21,0,False,False
+S00283,1,Junior DevOps Engineer,LTI Mindtree,9.38,0,True,False
+S02016,1,Graduate Trainee Engineer,Paytm,11.3,0,True,True
+S02404,4,Senior Data Analyst,Microsoft,96.64,2,False,True
+S02971,5,Senior Software Engineer,Capgemini,20.12,2,False,True
+S00141,3,Senior Software Engineer,Amazon,18.32,2,False,True
+S04357,3,Senior DevOps Engineer,Flipkart,89.1,2,False,True
+S02375,1,Associate Analyst,Flipkart,12.32,0,True,True
+S01370,2,Systems Engineer,TCS,11.09,1,False,False
+S01401,4,Senior DevOps Engineer,Paytm,16.98,2,False,True
+S03025,1,Associate Software Engineer,Flipkart,12.61,0,True,True
+S02235,4,Senior Consultant,Flipkart,18.21,2,False,True
+S04195,3,Consultant,TCS,15.47,1,False,True
+S00530,2,Systems Engineer,TCS,11.62,1,False,False
+S04720,5,Lead Software Engineer,Zomato,22.67,3,True,True
+S03223,1,Graduate Trainee Engineer,Infosys,9.68,0,True,False
+S03596,3,Systems Engineer,LTI Mindtree,13.72,1,False,False
+S00437,3,Data Analyst,Accenture,13.72,1,False,False
+S03486,2,Data Analyst,Cognizant,11.69,1,False,False
+S02622,2,Software Engineer,Wipro,14.03,1,False,False
+S03729,2,Associate Analyst,Salesforce,12.94,0,True,True
+S03057,1,Associate Software Engineer,Wipro,9.81,0,True,False
+S04377,2,Cloud Engineer,Accenture,10.7,1,False,False
+S01995,3,Senior Data Analyst,Microsoft,17.83,2,False,True
+S03550,2,Software Engineer,Cognizant,12.16,1,False,False
+S03401,1,Consultant,Google,52.19,1,True,False
+S04472,2,Software Engineer,Accenture,11.84,1,False,False
+S04635,3,Senior DevOps Engineer,TCS,17.09,2,False,True
+S02775,3,Systems Engineer,Wipro,14.49,1,False,True
+S03743,3,Senior Consultant,Capgemini,17.67,2,False,True
+S01419,1,Graduate Trainee Engineer,Infosys,10.43,0,False,False
+S01150,5,Technical Lead,Paytm,25.84,3,False,True
+S00176,3,Senior Data Analyst,Accenture,14.64,2,False,False
+S02635,1,Graduate Trainee Engineer,Razorpay,11.07,0,False,True
+S00636,5,Principal Architect,Google,107.52,4,False,True
+S02947,4,DevOps Architect,Flipkart,17.92,3,False,True
+S04411,3,Software Engineer,TCS,15.11,1,False,False
+S00583,2,Systems Engineer,Microsoft,14.56,1,False,True
+S01551,4,Cloud Engineer,Cisco,19.71,1,False,True
+S04709,3,Systems Engineer,Google,72.58,1,True,False
+S04171,2,Cloud Engineer,Uber,57.55,1,False,False
+S01127,2,Data Analyst,TCS,12.68,1,False,False
+S04960,2,Junior DevOps Engineer,Amazon,61.36,0,False,False
+S04634,2,Associate Analyst,Adobe,13.08,0,False,True
+S03216,4,Senior DevOps Engineer,LTI Mindtree,89.77,2,True,True
+S04983,2,Junior DevOps Engineer,TCS,10.69,0,False,False
+S03004,1,Consultant,Infosys,11.54,1,False,False
+S02740,3,Data Science Lead,Wipro,16.87,3,False,True
+S03771,3,Senior DevOps Engineer,TCS,12.68,2,True,False
+S03791,4,Systems Engineer,Paytm,15.93,1,False,True
+S03465,3,Data Analyst,Microsoft,16.06,1,False,True
+S00235,5,Technical Lead,Salesforce,22.03,3,False,True
+S02359,1,Junior DevOps Engineer,TCS,8.62,0,False,False
+S04001,1,Associate Analyst,Adobe,45.34,0,False,False
+S01887,3,Senior Data Analyst,Google,66.7,2,False,False
+S00677,1,Associate Analyst,Google,45.35,0,False,False
+S00931,4,Data Science Lead,Capgemini,18.05,3,False,True
+S03089,5,DevOps Architect,Oracle,20.61,3,True,True
+S02148,1,Graduate Trainee Engineer,Razorpay,11.25,0,False,True
+S03500,2,Systems Engineer,Accenture,10.83,1,False,False
+S02876,3,Senior Consultant,Atlassian,17.53,2,False,True
+S00301,4,Data Analyst,Amazon,20.31,1,False,True
+S02041,2,Graduate Trainee Engineer,Flipkart,12.22,0,False,True
+S03173,2,Consultant,Microsoft,12.46,1,False,True
+S01942,3,Data Analyst,Atlassian,14.52,1,True,True
+S01577,2,Software Engineer,Cognizant,68.63,1,False,True
+S03820,2,Associate Analyst,Zomato,11.68,0,False,True
+S01033,3,Senior DevOps Engineer,Uber,74.06,2,False,False
+S03979,2,Data Analyst,TCS,12.5,1,False,False
+S03616,3,Consultant,LTI Mindtree,13.72,1,False,False
+S00166,4,Senior Consultant,Wipro,16.45,2,True,False
+S01709,1,Junior DevOps Engineer,Microsoft,11.72,0,False,True
+S00942,5,Data Science Lead,Paytm,19.6,3,False,True
+S02358,5,Data Science Lead,Cognizant,22.52,3,False,True
+S01494,1,Associate Software Engineer,Atlassian,47.44,0,False,False
+S04554,4,Data Science Lead,Paytm,22.79,3,False,True
+S02350,4,Senior Consultant,Uber,16.54,2,False,True
+S02241,2,Data Analyst,TCS,10.55,1,False,False
+S04922,1,Graduate Trainee Engineer,Cisco,52.48,0,False,False
+S04777,3,Senior Consultant,Accenture,13.95,2,False,False
+S00886,3,Software Engineer,TCS,17.17,1,False,True
+S04300,2,Software Engineer,Amazon,11.19,1,False,True
+S03417,5,Technical Lead,Adobe,95.5,3,True,False
+S04062,5,Senior Consultant,Razorpay,24.31,2,False,True
+S04533,4,Senior DevOps Engineer,Google,18.25,2,False,True
+S03316,2,Systems Engineer,Zomato,15.45,1,False,True
+S00571,1,Associate Analyst,Amazon,45.91,0,False,False
+S00708,3,Senior Data Analyst,Amazon,73.39,2,False,False
+S01056,2,Cloud Engineer,Atlassian,15.21,1,False,True
+S01802,1,Graduate Trainee Engineer,Infosys,10.92,0,True,False
+S00439,1,Junior DevOps Engineer,Amazon,46.29,0,False,False
+S02884,1,Junior DevOps Engineer,Infosys,9.54,0,False,False
+S00492,1,Associate Analyst,Amazon,46.79,0,False,False
+S03800,1,Associate Software Engineer,Accenture,10.32,0,False,False
+S02432,5,DevOps Architect,Paytm,16.92,3,False,True
+S04010,3,Data Analyst,Infosys,13.86,1,False,False
+S00327,3,DevOps Architect,Cognizant,16.28,3,False,False
+S00229,4,Senior Consultant,Paytm,92.95,2,False,True
+S04788,2,Cloud Engineer,Microsoft,52.72,1,True,False
+S03241,2,Associate Analyst,Capgemini,12.35,0,True,True
+S03209,4,Senior Consultant,LTI Mindtree,89.95,2,True,True
+S00863,3,Systems Engineer,Cisco,15.64,1,False,True
+S00445,2,Senior DevOps Engineer,Atlassian,70.97,2,False,True
+S03626,5,Senior Software Engineer,Accenture,16.85,2,True,False
+S01155,3,Software Engineer,Microsoft,14.79,1,False,True
+S03672,1,Graduate Trainee Engineer,Wipro,9.79,0,False,False
+S02893,2,Associate Analyst,Infosys,10.74,0,False,False
+S01210,2,Consultant,Adobe,13.67,1,False,True
+S03103,3,Senior Consultant,Capgemini,14.85,2,False,False
+S02827,2,Systems Engineer,Oracle,15.04,1,False,True
+S04530,2,Software Engineer,Amazon,59.71,1,False,False
+S03341,1,Associate Analyst,TCS,9.63,0,False,False
+S03940,3,Cloud Engineer,Amazon,75.09,1,False,False
+S00484,5,Senior DevOps Engineer,TCS,19.62,2,False,False
+S04948,3,Systems Engineer,Amazon,65.03,1,False,False
+S02538,3,Senior Software Engineer,Accenture,14.53,2,True,False
+S01683,5,Senior Technical Lead,Capgemini,22.95,4,False,True
+S03803,2,Associate Software Engineer,Google,14.09,0,True,True
+S03781,3,Senior DevOps Engineer,Wipro,15.57,2,False,False
+S02471,2,Associate Software Engineer,Accenture,10.32,0,True,False
+S01552,1,Consultant,Wipro,11.15,1,True,False
+S01964,5,Lead Software Engineer,Google,111.2,3,False,False
+S00508,1,Junior DevOps Engineer,Microsoft,11.81,0,False,True
+S04559,2,Software Engineer,Infosys,77.08,1,False,True
+S00543,1,Associate Analyst,Google,47.18,0,False,False
+S04510,1,Junior DevOps Engineer,Adobe,63.36,0,False,True
+S04937,1,Junior DevOps Engineer,Wipro,8.77,0,True,False
+S04771,5,Senior Data Analyst,Zomato,21.13,2,False,True
+S02577,3,Senior Software Engineer,Uber,16.26,2,True,True
+S04917,5,Senior Data Analyst,Swiggy,22.49,2,False,True
+S04752,3,Senior Consultant,Cognizant,14.63,2,False,False
+S02864,4,Senior DevOps Engineer,Microsoft,80.86,2,False,False
+S03847,1,Graduate Trainee Engineer,Cognizant,9.13,0,False,False
+S00028,2,Consultant,Infosys,11.65,1,False,False
+S02427,4,Data Analyst,Infosys,78.42,1,True,True
+S04330,1,Associate Software Engineer,TCS,9.36,0,False,False
+S03765,4,Consultant,Cognizant,16.86,1,False,True
+S01661,4,Senior Consultant,Zomato,97.21,2,False,True
+S00998,2,Cloud Engineer,Swiggy,13.97,1,False,True
+S01799,2,Associate Analyst,Adobe,50.77,0,True,False
+S03609,3,Senior DevOps Engineer,TCS,17.89,2,False,False
+S01822,4,Senior Data Analyst,Amazon,89.18,2,False,True
+S02747,2,Associate Software Engineer,Infosys,10.31,0,True,False
+S01013,1,Consultant,Cognizant,11.02,1,False,False
+S03247,2,Software Engineer,Google,59.04,1,False,False
+S02044,2,Data Analyst,Cognizant,9.48,1,False,False
+S01020,5,Senior Data Analyst,Oracle,17.65,2,False,True
+S00835,2,Cloud Engineer,Infosys,12.06,1,False,False
+S02384,1,Associate Analyst,Infosys,10.59,0,False,False
+S01713,1,Associate Analyst,LTI Mindtree,9.3,0,True,False
+S04302,4,Senior Data Analyst,Uber,20.6,2,False,True
+S03744,2,Associate Software Engineer,TCS,10.97,0,False,False
+S04494,1,Associate Software Engineer,TCS,9.2,0,False,False
+S02408,2,Cloud Engineer,TCS,13.36,1,False,False
+S04966,4,Senior Data Analyst,Paytm,18.3,2,False,True
+S00284,1,Junior DevOps Engineer,Wipro,10.66,0,False,False
+S03298,2,Cloud Engineer,Cognizant,14.53,1,True,True
+S03878,3,Senior Data Analyst,Oracle,18.03,2,False,True
+S02526,3,Consultant,Wipro,15.5,1,False,False
+S02706,4,Senior Consultant,LTI Mindtree,108.95,2,False,True
+S02994,1,Graduate Trainee Engineer,Capgemini,10.06,0,False,False
+S02289,5,Data Science Lead,Adobe,100.29,3,True,True
+S00270,3,Data Science Lead,Accenture,13.91,3,True,False
+S04763,4,Senior Consultant,Cognizant,16.49,2,True,False
+S04660,5,Senior Data Analyst,Accenture,16.49,2,False,False
+S00741,1,Associate Software Engineer,Infosys,9.09,0,False,False
+S02644,4,Senior Consultant,Paytm,17.97,2,False,True
+S04344,1,Junior DevOps Engineer,Google,47.44,0,False,False
+S01421,2,Associate Analyst,Wipro,13.03,0,True,True
+S03561,3,Senior Consultant,Accenture,17.11,2,False,True
+S02209,4,Data Analyst,Adobe,95.03,1,False,True
+S01746,4,Senior Data Analyst,Paytm,21.17,2,True,True
+S03094,3,Consultant,Atlassian,16.3,1,False,True
+S03551,4,Lead Software Engineer,Razorpay,20.16,3,False,True
+S03573,1,Data Analyst,Wipro,11.73,1,False,False
+S03381,1,Associate Software Engineer,Infosys,8.36,0,False,False
+S01152,3,Senior Consultant,Uber,15.29,2,False,True
+S02713,2,Junior DevOps Engineer,Wipro,14.68,0,False,True
+S03503,5,Lead Software Engineer,LTI Mindtree,98.87,3,True,True
+S01860,3,Senior Software Engineer,TCS,13.55,2,False,True
+S04515,3,Data Analyst,Accenture,16.27,1,False,True
+S02262,2,Systems Engineer,Infosys,10.81,1,True,False
+S04273,4,Senior Data Analyst,Zomato,94.65,2,False,True
+S02180,2,Associate Software Engineer,TCS,61.66,0,False,True
+S01682,3,Senior DevOps Engineer,Wipro,15.98,2,False,False
+S01364,4,Lead Software Engineer,Adobe,17.75,3,False,True
+S04268,1,Cloud Engineer,Google,53.25,1,False,False
+S03999,2,Software Engineer,Capgemini,13.93,1,False,True
+S01417,3,Cloud Engineer,Cognizant,15.35,1,False,True
+S04275,3,Lead Software Engineer,Capgemini,15.22,3,False,False
+S00806,3,Data Analyst,Flipkart,17.69,1,False,True
+S04209,4,Systems Engineer,Capgemini,16.55,1,False,True
+S03289,1,Data Analyst,Infosys,10.33,1,False,False
+S00890,5,Technical Lead,Cisco,108.7,3,False,True
+S02725,2,Senior Data Analyst,TCS,13.37,2,False,False
+S02595,3,Consultant,Infosys,12.09,1,False,False
+S02951,2,Junior DevOps Engineer,Wipro,12.55,0,False,False
+S04433,4,Technical Lead,Amazon,22.43,3,True,True
+S00160,1,Associate Software Engineer,Wipro,9.74,0,False,False
+S03072,2,Senior Software Engineer,TCS,13.54,2,False,False
+S02305,1,Associate Analyst,Cognizant,8.95,0,False,False
+S02861,1,Junior DevOps Engineer,Wipro,9.47,0,False,False
+S04009,4,Technical Lead,Cisco,20.96,3,False,True
+S04076,3,Cloud Engineer,TCS,14.97,1,False,True
+S04482,2,Associate Software Engineer,TCS,12.52,0,False,True
+S02493,3,Software Engineer,LTI Mindtree,14.28,1,True,True
+S02975,5,Senior Consultant,Atlassian,17.82,2,False,True
+S02009,3,Senior Data Analyst,Cognizant,16.57,2,False,False
+S04947,2,Senior DevOps Engineer,Zomato,73.16,2,False,True
+S04056,2,Data Analyst,Accenture,13.47,1,True,False
+S01064,1,Associate Software Engineer,Accenture,9.67,0,False,False
+S02063,4,Technical Lead,Paytm,16.73,3,False,True
+S02501,1,Associate Software Engineer,Cognizant,8.82,0,True,False
+S03367,5,DevOps Architect,Cognizant,21.24,3,False,False
+S01248,2,Software Engineer,Uber,53.21,1,False,False
+S00050,4,Senior DevOps Engineer,Wipro,17.43,2,False,False
+S02458,3,Senior Software Engineer,Uber,19.02,2,False,True
+S03730,4,Senior Data Analyst,Infosys,20.26,2,False,False
+S00463,2,Systems Engineer,TCS,12.97,1,False,False
+S00126,1,Graduate Trainee Engineer,Cognizant,11.44,0,False,True
+S00416,4,Senior DevOps Engineer,Zomato,19.13,2,False,True
+S01396,3,Consultant,TCS,13.36,1,False,False
+S00997,2,Associate Software Engineer,Capgemini,10.23,0,False,False
+S02095,3,Cloud Engineer,Oracle,14.96,1,False,True
+S02318,3,Senior DevOps Engineer,Adobe,69.41,2,True,False
+S02901,2,Data Analyst,Capgemini,12.73,1,True,True
+S01341,3,Senior Consultant,LTI Mindtree,13.91,2,False,False
+S01092,1,Associate Analyst,LTI Mindtree,10.68,0,True,False
+S00179,4,Software Engineer,Google,19.62,1,False,True
+S04850,3,Data Analyst,Infosys,12.43,1,False,False
+S04320,4,Senior Software Engineer,Cognizant,16.45,2,False,False
+S01041,1,Associate Software Engineer,Accenture,8.79,0,False,False
+S01511,4,Data Analyst,Google,18.21,1,False,True
+S01685,3,Systems Engineer,Zomato,14.39,1,False,True
+S01936,3,Software Engineer,Flipkart,17.14,1,False,True
+S04704,2,Consultant,TCS,12.28,1,False,False
+S02634,4,Senior Consultant,Razorpay,20.21,2,False,True
+S03344,1,Junior DevOps Engineer,TCS,9.16,0,False,False
+S02797,2,Junior DevOps Engineer,TCS,12.13,0,True,False
+S02484,4,Technical Lead,Google,71.23,3,False,False
+S00996,3,Senior Data Analyst,Oracle,19.66,2,False,True
+S00593,3,Senior Software Engineer,Cognizant,14.09,2,True,False
+S02430,3,Senior Consultant,Cognizant,13.55,2,False,False
+S04651,1,Associate Analyst,TCS,9.37,0,False,False
+S04837,4,Senior Software Engineer,Capgemini,21.31,2,True,True
+S01310,1,Graduate Trainee Engineer,TCS,10.22,0,True,False
+S03792,2,Systems Engineer,Swiggy,15.18,1,False,True
+S00042,3,Systems Engineer,Accenture,13.84,1,False,False
+S03096,5,Senior DevOps Engineer,Cisco,20.87,2,False,True
+S02602,5,DevOps Architect,TCS,19.76,3,False,False
+S00927,3,Senior Software Engineer,Wipro,86.78,2,False,True
+S02906,3,Senior DevOps Engineer,Salesforce,77.95,2,False,True
+S01303,2,Software Engineer,TCS,15.76,1,False,True
+S03400,2,Senior Software Engineer,Uber,59.96,2,False,False
+S01459,2,Associate Analyst,TCS,9.13,0,False,False
+S03282,5,Technical Lead,Microsoft,20.2,3,False,True
+S01025,3,Senior Consultant,Uber,17.67,2,False,True
+S01807,4,Senior Data Analyst,Wipro,20.07,2,False,True
+S04596,5,Senior DevOps Engineer,Accenture,20.33,2,False,True
+S01578,1,Software Engineer,Wipro,11.95,1,False,False
+S04717,2,Software Engineer,Wipro,11.9,1,False,False
+S02572,2,Graduate Trainee Engineer,Flipkart,14.6,0,False,True
+S01042,5,Lead Software Engineer,Accenture,16.94,3,False,False
+S00912,1,Junior DevOps Engineer,LTI Mindtree,10.88,0,False,False
+S00628,1,Associate Software Engineer,TCS,10.6,0,False,False
+S01142,3,Senior Software Engineer,Zomato,20.81,2,False,True
+S01535,1,Associate Analyst,LTI Mindtree,58.84,0,True,True
+S02197,2,Senior Consultant,Flipkart,15.51,2,False,True
+S02611,3,Senior Software Engineer,TCS,14.97,2,False,False
+S01181,1,Associate Analyst,Google,51.0,0,False,False
+S01272,1,Software Engineer,Capgemini,9.16,1,False,False
+S00054,5,Technical Lead,TCS,22.65,3,False,False
+S03278,3,Senior DevOps Engineer,Cognizant,17.34,2,False,False
+S00192,1,Graduate Trainee Engineer,Razorpay,56.09,0,False,True
+S00885,2,Cloud Engineer,Accenture,12.43,1,False,False
+S03280,3,Cloud Engineer,Adobe,14.32,1,False,True
+S00072,1,Systems Engineer,Accenture,10.99,1,False,False
+S01284,1,Associate Analyst,Infosys,9.4,0,False,False
+S01503,3,Data Science Lead,TCS,17.53,3,False,False
+S01894,4,DevOps Architect,Amazon,81.12,3,True,False
+S02870,2,Junior DevOps Engineer,Accenture,73.47,0,False,True
+S03414,2,Graduate Trainee Engineer,Wipro,9.37,0,False,False
+S01959,2,Associate Analyst,Adobe,12.85,0,False,True
+S00382,1,Graduate Trainee Engineer,TCS,8.36,0,False,False
+S00472,1,Associate Software Engineer,LTI Mindtree,8.74,0,False,False
+S02121,4,Senior Consultant,Microsoft,101.25,2,False,True
+S04999,1,Cloud Engineer,LTI Mindtree,14.2,1,False,True
+S01724,3,Senior Consultant,Accenture,16.1,2,True,False
+S02592,4,Data Science Lead,LTI Mindtree,20.47,3,False,True
+S00700,1,Graduate Trainee Engineer,TCS,10.01,0,False,False
+S02282,4,Data Science Lead,Microsoft,17.58,3,False,True
+S03514,4,Senior DevOps Engineer,Capgemini,78.54,2,False,True
+S04974,3,Data Analyst,Adobe,15.06,1,False,True
+S00453,3,Data Science Lead,TCS,20.5,3,True,True
+S04984,1,Graduate Trainee Engineer,TCS,10.02,0,False,False
+S02122,4,Consultant,Razorpay,16.9,1,True,True
+S01762,2,Graduate Trainee Engineer,Capgemini,10.17,0,False,False
+S02376,1,Junior DevOps Engineer,Microsoft,13.39,0,False,True
+S04375,1,Associate Analyst,TCS,10.52,0,False,False
+S04432,3,Senior Data Analyst,TCS,12.2,2,False,False
+S03568,3,Software Engineer,TCS,14.11,1,False,False
+S00505,3,Senior Consultant,TCS,17.52,2,True,False
+S01451,4,Senior Data Analyst,Cognizant,108.72,2,False,True
+S04935,2,Graduate Trainee Engineer,TCS,11.62,0,False,True
+S00837,2,Junior DevOps Engineer,Wipro,11.25,0,True,False
+S04585,2,Graduate Trainee Engineer,Amazon,49.28,0,True,False
+S04730,3,Senior Consultant,Adobe,74.46,2,False,False
+S01896,1,Cloud Engineer,TCS,11.14,1,False,False
+S03960,2,Associate Software Engineer,Adobe,65.65,0,False,True
+S03302,3,Software Engineer,Capgemini,14.25,1,False,False
+S04424,5,Senior Software Engineer,Swiggy,23.01,2,False,True
+S00144,2,Junior DevOps Engineer,Paytm,10.76,0,False,True
+S00999,5,Senior Technical Lead,Wipro,110.79,4,False,True
+S01935,1,Graduate Trainee Engineer,Infosys,8.49,0,False,False
+S04213,4,Cloud Engineer,Microsoft,16.87,1,True,True
+S01111,1,Systems Engineer,Adobe,53.92,1,False,False
+S00182,2,Consultant,Paytm,16.68,1,False,True
+S01514,4,Senior Consultant,Paytm,17.45,2,True,True
+S04283,1,Junior DevOps Engineer,Google,50.17,0,True,False
+S00380,4,Systems Engineer,Capgemini,85.09,1,False,True
+S03068,3,Consultant,Infosys,13.7,1,False,False
+S01418,2,Cloud Engineer,Infosys,13.42,1,False,False
+S01068,1,Associate Analyst,Wipro,8.4,0,False,False
+S01178,5,Senior DevOps Engineer,TCS,22.57,2,False,True
+S00843,3,Systems Engineer,Cognizant,14.03,1,False,False
+S03590,5,Technical Lead,Capgemini,21.24,3,False,True
+S03176,5,Senior Technical Lead,Amazon,24.14,4,False,True
+S02217,3,Technical Lead,LTI Mindtree,15.64,3,False,False
+S04861,5,Lead Software Engineer,Flipkart,19.18,3,True,True
+S02714,2,Software Engineer,Amazon,61.52,1,True,False
+S02789,2,Junior DevOps Engineer,Cognizant,9.96,0,True,False
+S00115,4,Data Analyst,TCS,13.35,1,False,False
+S02616,1,Graduate Trainee Engineer,Capgemini,8.76,0,True,False
+S01801,1,Graduate Trainee Engineer,LTI Mindtree,8.73,0,False,False
+S03291,2,Cloud Engineer,TCS,12.16,1,False,False
+S00681,1,Junior DevOps Engineer,Cisco,49.06,0,False,False
+S03319,2,Cloud Engineer,Flipkart,16.87,1,True,True
+S00190,3,Senior Consultant,Uber,16.13,2,True,True
+S00475,1,Graduate Trainee Engineer,Accenture,8.79,0,False,False
+S03893,5,Senior DevOps Engineer,Wipro,18.99,2,False,False
+S03630,1,Associate Analyst,Infosys,11.02,0,True,False
+S03307,2,Cloud Engineer,Accenture,15.13,1,False,True
+S01010,4,Senior Data Analyst,Microsoft,17.56,2,False,True
+S01573,5,Senior DevOps Engineer,Google,19.02,2,True,True
+S04356,5,Technical Lead,Accenture,20.44,3,False,True
+S01051,4,Lead Software Engineer,Accenture,21.89,3,False,True
+S04602,4,Software Engineer,Accenture,19.06,1,False,True
+S01336,1,Junior DevOps Engineer,TCS,8.3,0,False,False
+S00952,2,Data Analyst,Microsoft,15.38,1,False,True
+S02473,3,Cloud Engineer,Infosys,11.46,1,False,False
+S02453,3,Data Analyst,Wipro,11.54,1,False,False
+S00069,2,Software Engineer,Capgemini,13.47,1,False,False
+S02866,3,Cloud Engineer,LTI Mindtree,14.04,1,True,True
+S04623,3,Senior Data Analyst,Infosys,14.59,2,True,False
+S03030,5,Senior Technical Lead,LTI Mindtree,22.42,4,False,True
+S01895,2,Consultant,Infosys,15.11,1,False,True
+S02419,3,Systems Engineer,TCS,17.68,1,False,True
+S02005,1,Associate Software Engineer,Accenture,9.8,0,False,False
+S04535,3,Consultant,Salesforce,17.33,1,False,True
+S02562,4,Consultant,Atlassian,17.06,1,False,True
+S04050,4,Senior DevOps Engineer,Oracle,79.01,2,False,True
+S04529,1,Associate Analyst,Capgemini,57.66,0,True,True
+S03876,3,Senior DevOps Engineer,Atlassian,18.1,2,True,True
+S03349,3,Senior DevOps Engineer,Capgemini,17.53,2,False,True
+S04104,5,Senior Consultant,Uber,84.58,2,False,False
+S00808,2,Junior DevOps Engineer,Google,55.72,0,True,False
+S00113,2,Associate Software Engineer,Flipkart,12.06,0,False,True
+S03153,2,Associate Software Engineer,TCS,11.31,0,False,False
+S03848,4,Senior Software Engineer,TCS,15.53,2,False,False
+S00394,1,Junior DevOps Engineer,Infosys,8.75,0,True,False
+S00697,1,Associate Analyst,Uber,47.67,0,False,False
+S01211,3,Senior Consultant,TCS,12.83,2,True,False
+S03378,2,Graduate Trainee Engineer,Capgemini,11.12,0,False,False
+S00839,2,Senior Data Analyst,Capgemini,12.48,2,False,False
+S00214,4,Systems Engineer,TCS,17.61,1,False,False
+S02117,3,Senior DevOps Engineer,Uber,18.16,2,False,True
+S03693,1,Graduate Trainee Engineer,Infosys,9.3,0,False,False
+S02082,4,DevOps Architect,TCS,20.27,3,True,False
+S01340,4,DevOps Architect,Capgemini,104.35,3,False,True
+S00608,3,Senior Consultant,Paytm,93.27,2,True,True
+S02647,3,Systems Engineer,Cisco,14.87,1,True,True
+S04806,4,Data Science Lead,Amazon,82.11,3,False,False
+S04220,1,Junior DevOps Engineer,Infosys,10.43,0,False,False
+S04147,4,Technical Lead,Amazon,77.48,3,False,False
+S03776,2,Senior Data Analyst,Capgemini,15.23,2,False,True
+S02839,3,Cloud Engineer,Microsoft,56.23,1,False,False
+S01495,3,Cloud Engineer,Swiggy,15.84,1,False,True
+S03353,3,Consultant,TCS,13.71,1,False,False
+S00694,1,Junior DevOps Engineer,Infosys,9.24,0,False,False
+S03201,4,Consultant,Infosys,12.82,1,False,False
+S03688,5,Senior Consultant,Salesforce,23.13,2,False,True
+S00728,1,Consultant,Accenture,11.83,1,False,False
+S03546,3,DevOps Architect,Accenture,19.0,3,True,False
+S01081,5,DevOps Architect,Salesforce,23.73,3,False,True
+S00419,3,Systems Engineer,LTI Mindtree,17.22,1,True,True
+S02416,3,Senior Consultant,Infosys,13.94,2,False,False
+S03533,5,Senior Software Engineer,Wipro,81.81,2,False,True
+S04204,3,Systems Engineer,Infosys,14.87,1,False,False
+S00296,3,Cloud Engineer,Atlassian,61.91,1,True,False
+S01669,3,Senior Software Engineer,Capgemini,14.14,2,False,False
+S00955,1,Graduate Trainee Engineer,LTI Mindtree,9.57,0,False,False
+S01956,1,Graduate Trainee Engineer,Accenture,9.51,0,False,False
+S01641,1,Junior DevOps Engineer,Wipro,10.65,0,False,False
+S00095,4,Senior Software Engineer,Swiggy,16.12,2,False,True
+S01106,3,Consultant,Wipro,16.26,1,True,True
+S01358,1,Junior DevOps Engineer,TCS,10.24,0,False,False
+S04235,1,Associate Analyst,Cognizant,9.38,0,False,False
+S00772,1,Graduate Trainee Engineer,Cognizant,8.96,0,False,False
+S00455,1,Junior DevOps Engineer,Amazon,50.4,0,False,False
+S04732,5,Staff Software Engineer,Capgemini,24.1,4,False,True
+S00743,5,Senior Consultant,Salesforce,23.06,2,False,True
+S00616,4,Senior Software Engineer,Cisco,93.29,2,False,True
+S03740,1,Associate Software Engineer,TCS,9.8,0,True,False
+S02614,3,Senior Consultant,Cognizant,18.08,2,False,False
+S03415,3,Senior Software Engineer,Adobe,18.39,2,False,True
+S04985,2,Cloud Engineer,Cognizant,15.27,1,False,True
+S03684,5,Principal Architect,Infosys,18.41,4,False,False
+S03482,4,Data Analyst,Wipro,14.42,1,False,False
+S03111,3,Senior Data Analyst,Amazon,15.96,2,False,True
+S02858,3,Software Engineer,Wipro,11.79,1,False,False
+S03788,1,Graduate Trainee Engineer,Cisco,55.87,0,False,True
+S04859,2,Graduate Trainee Engineer,Adobe,51.97,0,False,False
+S04702,1,Associate Software Engineer,Microsoft,47.74,0,False,False
+S03984,2,Data Analyst,TCS,15.0,1,False,True
+S04123,1,Software Engineer,Flipkart,11.68,1,False,True
+S03109,4,Cloud Engineer,TCS,17.79,1,False,False
+S04528,1,Associate Software Engineer,LTI Mindtree,60.9,0,False,True
+S02070,4,Senior Consultant,Microsoft,19.82,2,False,True
+S02499,5,Senior Data Analyst,Razorpay,23.33,2,False,True
+S02628,1,Graduate Trainee Engineer,Google,45.22,0,False,False
+S01941,1,Graduate Trainee Engineer,Wipro,10.48,0,False,False
+S04506,4,DevOps Architect,Google,113.87,3,True,True
+S01414,5,Senior Data Analyst,Google,104.29,2,False,False
+S02855,3,Senior Consultant,Salesforce,16.9,2,False,True
+S04217,4,DevOps Architect,Infosys,21.6,3,False,False
+S00881,4,Senior Consultant,Cognizant,15.93,2,False,False
+S04305,3,Senior Data Analyst,Cisco,67.63,2,False,False
+S03418,1,Cloud Engineer,TCS,10.53,1,True,False
+S04122,4,Software Engineer,Uber,18.28,1,False,True
+S03238,4,Senior DevOps Engineer,Microsoft,19.41,2,False,True
+S04929,2,Data Analyst,Atlassian,14.35,1,True,True
+S04576,5,Lead Software Engineer,Salesforce,101.33,3,False,True
+S02285,2,Consultant,Amazon,57.26,1,False,False
+S01945,3,Senior Software Engineer,Wipro,14.22,2,False,True
+S03995,1,Graduate Trainee Engineer,Wipro,10.57,0,False,False
+S02983,3,Senior Data Analyst,TCS,14.66,2,False,False
+S01437,1,Graduate Trainee Engineer,Uber,13.3,0,True,True
+S02446,3,Cloud Engineer,TCS,13.58,1,False,False
+S00733,2,Data Analyst,Paytm,76.73,1,False,True
+S02052,2,Cloud Engineer,TCS,11.91,1,False,False
+S02228,3,Data Analyst,Google,16.51,1,False,True
+S01706,3,Consultant,Flipkart,14.89,1,False,True
+S02025,3,Software Engineer,Cognizant,12.14,1,False,False
+S03148,1,Associate Software Engineer,TCS,10.56,0,True,False
+S00807,1,Cloud Engineer,Wipro,11.18,1,False,False
+S00961,2,Cloud Engineer,Google,63.0,1,False,False
+S01420,3,Senior Consultant,Cisco,16.33,2,False,True
+S03745,1,Associate Software Engineer,Atlassian,45.62,0,False,False
+S00679,3,Senior Data Analyst,Amazon,78.75,2,False,False
+S02610,4,Senior Software Engineer,Capgemini,16.29,2,False,False
+S03741,4,Senior Data Analyst,TCS,94.54,2,True,True
+S02597,1,Associate Analyst,Infosys,10.1,0,False,False
+S00344,3,Cloud Engineer,Adobe,15.0,1,False,True
+S02163,2,Junior DevOps Engineer,Uber,53.05,0,False,False
+S00006,4,Senior Data Analyst,Uber,73.89,2,False,False
+S01407,2,Associate Software Engineer,Infosys,11.94,0,True,True
+S03027,1,Graduate Trainee Engineer,Infosys,9.9,0,True,False
+S00795,2,Consultant,Accenture,11.79,1,False,False
+S03821,2,Graduate Trainee Engineer,Uber,14.25,0,False,True
+S00614,5,Principal Architect,Oracle,110.48,4,False,True
+S00915,3,Software Engineer,Salesforce,14.3,1,False,True
+S04400,3,Systems Engineer,LTI Mindtree,85.08,1,False,True
+S01055,3,Senior DevOps Engineer,Infosys,13.7,2,True,False
+S00629,3,Consultant,Cognizant,14.33,1,False,False
+S00562,2,Cloud Engineer,Adobe,63.12,1,False,False
+S04605,4,Senior DevOps Engineer,Cognizant,19.53,2,False,True
+S01637,1,Junior DevOps Engineer,Zomato,57.96,0,False,True
+S04521,4,Cloud Engineer,Uber,70.24,1,False,False
+S03846,5,Principal Architect,Wipro,20.14,4,False,False
+S01483,1,Systems Engineer,Accenture,10.36,1,False,False
+S01012,2,Senior Consultant,Capgemini,84.47,2,False,True
+S00632,2,Associate Analyst,Google,52.73,0,False,False
+S02692,2,Cloud Engineer,Razorpay,13.54,1,False,True
+S00581,1,Data Analyst,Wipro,9.66,1,False,False
+S01008,4,Senior Consultant,Cisco,15.99,2,False,True
+S02872,2,Senior Consultant,Infosys,13.54,2,False,False
+S03382,5,Data Science Lead,Adobe,23.17,3,False,True
+S00719,2,Associate Software Engineer,TCS,11.4,0,False,False
+S01717,2,Consultant,Amazon,51.85,1,False,False
+S03213,4,Systems Engineer,Cisco,19.92,1,True,True
+S01031,1,Junior DevOps Engineer,Google,49.86,0,False,False
+S04863,5,Senior Software Engineer,Paytm,19.05,2,False,True
+S02557,2,Graduate Trainee Engineer,Adobe,49.04,0,False,False
+S02242,2,Consultant,Google,66.57,1,False,False
+S03517,1,Consultant,TCS,9.42,1,False,False
+S02096,2,Associate Software Engineer,LTI Mindtree,9.63,0,False,False
+S04841,1,Associate Analyst,Capgemini,10.3,0,False,True
+S04063,4,DevOps Architect,Salesforce,22.66,3,True,True
+S01245,3,Senior Data Analyst,Wipro,13.68,2,True,False
+S04776,2,Junior DevOps Engineer,Atlassian,13.32,0,True,True
+S01938,3,Senior Consultant,TCS,14.37,2,False,False
+S00432,1,Associate Analyst,Wipro,10.49,0,False,False
+S00402,1,Associate Analyst,Cognizant,9.41,0,False,False
+S02202,4,Senior Data Analyst,Razorpay,21.81,2,False,True
+S01829,1,Graduate Trainee Engineer,Cisco,43.4,0,False,False
+S00443,3,Senior Consultant,Amazon,77.89,2,False,False
+S01513,2,Junior DevOps Engineer,Cognizant,11.02,0,True,False
+S04314,5,Senior DevOps Engineer,Microsoft,92.6,2,False,False
+S00373,5,DevOps Architect,Wipro,24.43,3,False,True
+S04696,2,Consultant,Wipro,11.89,1,False,False
+S00631,5,Lead Software Engineer,Capgemini,17.19,3,False,True
+S01504,1,Associate Analyst,Accenture,10.79,0,True,False
+S04042,2,Associate Analyst,Accenture,11.31,0,False,False
+S03195,4,Senior Consultant,Amazon,79.35,2,False,False
+S02567,4,DevOps Architect,Cognizant,21.05,3,False,True
+S00902,3,Cloud Engineer,Cognizant,15.05,1,False,False
+S00515,2,Graduate Trainee Engineer,TCS,10.29,0,False,False
+S01443,3,Consultant,Infosys,74.54,1,False,True
+S04055,2,Associate Analyst,Capgemini,11.6,0,False,False
+S01981,2,Software Engineer,TCS,13.17,1,False,False
+S02314,2,Associate Software Engineer,Wipro,11.06,0,False,False
+S01229,2,Senior Consultant,Adobe,66.33,2,False,False
+S01840,3,Senior Software Engineer,Uber,18.28,2,False,True
+S00778,1,Consultant,TCS,11.39,1,True,False
+S04979,4,Data Science Lead,Wipro,98.98,3,False,True
+S03047,5,DevOps Architect,Accenture,21.93,3,False,True
+S02771,4,Senior Software Engineer,Amazon,15.65,2,False,True
+S01816,1,Graduate Trainee Engineer,Google,45.93,0,False,False
+S00034,2,Associate Software Engineer,Microsoft,58.41,0,False,False
+S03681,4,Systems Engineer,Capgemini,14.63,1,False,True
+S02662,5,DevOps Architect,Infosys,21.86,3,False,False
+S04005,4,Consultant,Accenture,13.58,1,False,False
+S04392,4,Senior Consultant,Flipkart,21.98,2,False,True
+S01389,4,Consultant,Uber,16.32,1,False,True
+S01588,2,Associate Analyst,LTI Mindtree,13.91,0,False,True
+S01824,3,Systems Engineer,Flipkart,15.93,1,False,True
+S02568,4,Senior Data Analyst,Atlassian,18.42,2,True,True
+S01116,2,Junior DevOps Engineer,Google,57.75,0,False,False
+S04943,4,Data Analyst,Capgemini,16.98,1,False,True
+S00464,3,Senior Software Engineer,Zomato,18.91,2,False,True
+S03593,5,Engineering Manager,Cisco,26.11,4,True,True
+S03383,1,Cloud Engineer,Capgemini,9.75,1,True,False
+S02957,3,Software Engineer,Amazon,13.9,1,True,True
+S03869,2,Cloud Engineer,Google,55.44,1,False,False
+S03363,2,Cloud Engineer,Accenture,11.34,1,False,False
+S02492,2,Software Engineer,Infosys,11.61,1,False,False
+S01440,5,Technical Lead,TCS,20.69,3,False,False
+S02177,4,Consultant,Cisco,19.64,1,True,True
+S03648,4,Senior Software Engineer,TCS,16.58,2,True,False
+S03690,2,Graduate Trainee Engineer,Accenture,12.1,0,False,True
+S03453,5,Senior Data Analyst,Capgemini,19.69,2,True,False
+S04673,5,Technical Lead,Adobe,24.76,3,False,True
+S03600,5,Senior Data Analyst,Google,83.52,2,False,False
+S00111,2,Senior Software Engineer,Microsoft,13.85,2,False,True
+S02369,1,Graduate Trainee Engineer,Cognizant,11.36,0,False,True
+S00634,3,Systems Engineer,Infosys,13.72,1,False,False
+S02878,2,Software Engineer,Cognizant,11.49,1,False,False
+S00238,1,Associate Software Engineer,Accenture,10.41,0,False,False
+S02528,2,Junior DevOps Engineer,Cognizant,10.66,0,False,False
+S02594,1,Systems Engineer,Capgemini,10.39,1,False,False
+S02620,2,Data Analyst,Google,61.57,1,False,False
+S00257,1,Junior DevOps Engineer,Infosys,9.86,0,False,False
+S02064,1,Graduate Trainee Engineer,Wipro,9.08,0,False,False
+S01183,4,Software Engineer,TCS,15.75,1,False,False
+S04986,1,Associate Analyst,Atlassian,48.03,0,False,False
+S03326,2,Systems Engineer,LTI Mindtree,13.19,1,True,True
+S02340,5,Senior Data Analyst,Amazon,20.0,2,False,True
+S01998,2,Senior Consultant,Wipro,12.53,2,False,False
+S02564,5,Senior Consultant,Microsoft,21.49,2,False,True
+S02898,1,Associate Analyst,TCS,9.2,0,False,False
+S04477,2,Data Analyst,Microsoft,15.17,1,False,True
+S04378,1,Consultant,Infosys,10.34,1,False,False
+S04187,2,Systems Engineer,Infosys,12.53,1,False,False
+S02781,4,Senior DevOps Engineer,Atlassian,100.92,2,False,True
+S00180,2,Software Engineer,Infosys,11.73,1,False,False
+S03140,3,Consultant,TCS,14.14,1,False,False
+S04679,1,Associate Analyst,Capgemini,10.73,0,False,False
+S04060,3,Senior Data Analyst,Salesforce,14.92,2,False,True
+S04992,5,Data Science Lead,TCS,21.87,3,True,True
+S01147,1,Cloud Engineer,Infosys,11.25,1,False,False
+S02803,3,Senior Software Engineer,Razorpay,17.47,2,True,True
+S01207,4,Senior Software Engineer,Zomato,18.16,2,True,True
+S03432,5,Data Science Lead,Paytm,116.77,3,False,True
+S03614,4,Senior Software Engineer,Accenture,19.6,2,False,False
+S04990,3,DevOps Architect,Adobe,16.64,3,False,True
+S02213,1,Junior DevOps Engineer,TCS,9.77,0,False,False
+S01985,2,Data Analyst,Atlassian,15.11,1,False,True
+S04121,2,Senior DevOps Engineer,Wipro,13.1,2,False,False
+S00720,4,Senior Consultant,Wipro,20.23,2,False,True
+S02465,2,Data Analyst,Infosys,10.38,1,False,False
+S00991,4,Senior Software Engineer,Amazon,20.35,2,False,True
+S02514,2,Data Analyst,Amazon,64.11,1,False,False
+S02745,3,Senior DevOps Engineer,Salesforce,15.68,2,False,True
+S02101,1,Cloud Engineer,Cisco,48.59,1,True,False
+S02978,1,Graduate Trainee Engineer,Accenture,10.2,0,True,True
+S00712,5,Lead Software Engineer,Infosys,106.64,3,False,True
+S00523,2,Cloud Engineer,Cisco,75.73,1,False,True
+S04440,2,Graduate Trainee Engineer,Flipkart,12.16,0,False,True
+S03794,1,Software Engineer,Google,51.98,1,True,False
+S03361,3,Senior Consultant,Microsoft,18.42,2,False,True
+S03980,1,Associate Analyst,LTI Mindtree,10.1,0,False,False
+S02462,3,Cloud Engineer,Infosys,13.81,1,False,False
+S02383,1,Associate Software Engineer,Microsoft,47.03,0,False,False
+S00356,1,Associate Analyst,Wipro,10.82,0,False,False
+S01883,1,Associate Analyst,Microsoft,50.19,0,False,False
+S02141,4,DevOps Architect,Salesforce,17.05,3,False,True
+S00678,3,Systems Engineer,Cognizant,14.8,1,True,False
+S01680,1,Associate Analyst,Infosys,9.24,0,False,False
+S01705,3,Senior Consultant,Wipro,16.59,2,False,False
+S04987,4,Senior Consultant,Google,15.78,2,True,True
+S02561,2,Senior Data Analyst,Infosys,13.77,2,False,False
+S01405,1,Junior DevOps Engineer,Wipro,8.76,0,False,False
+S01348,3,Software Engineer,TCS,18.65,1,False,True
+S02896,2,Data Analyst,LTI Mindtree,14.56,1,False,True
+S01701,2,Systems Engineer,Microsoft,60.48,1,False,False
+S04162,4,Senior Consultant,Cisco,16.81,2,True,True
+S03021,1,Junior DevOps Engineer,LTI Mindtree,9.67,0,False,False
+S03069,3,Senior DevOps Engineer,Cisco,14.25,2,True,True
+S03597,5,Principal Architect,Adobe,25.02,4,False,True
+S04740,1,Associate Software Engineer,Amazon,49.85,0,False,False
+S04065,3,Senior Data Analyst,LTI Mindtree,15.97,2,False,False
+S04817,1,Associate Analyst,Infosys,10.14,0,False,False
+S00391,2,Software Engineer,LTI Mindtree,12.44,1,False,False
+S01770,2,Systems Engineer,Infosys,12.38,1,False,False
+S02680,3,Software Engineer,Infosys,17.0,1,False,True
+S00666,1,Data Analyst,Atlassian,55.39,1,False,False
+S04181,1,Associate Software Engineer,Amazon,48.2,0,True,False
+S03184,3,Technical Lead,Infosys,17.16,3,False,False
+S01533,2,Systems Engineer,Wipro,13.2,1,False,False
+S01457,5,Senior Data Analyst,Google,89.98,2,False,True
+S04549,3,Software Engineer,Amazon,14.75,1,False,True
+S02393,4,Senior Software Engineer,Capgemini,20.86,2,False,True
+S04277,5,Senior Technical Lead,Wipro,22.11,4,False,False
+S03489,3,Technical Lead,Salesforce,19.18,3,True,True
+S04141,3,Consultant,Flipkart,15.03,1,False,True
+S03464,4,Lead Software Engineer,Microsoft,103.24,3,False,True
+S03194,4,Data Analyst,Cisco,15.46,1,False,True
+S03613,4,Systems Engineer,Cognizant,15.76,1,False,False
+S00106,5,Technical Lead,Cognizant,21.79,3,True,False
+S04254,5,Engineering Manager,Cisco,24.07,4,False,True
+S03125,4,Senior Software Engineer,Accenture,16.85,2,False,False
+S02290,4,Senior Software Engineer,Amazon,71.34,2,False,False
+S03728,2,Senior Data Analyst,Adobe,16.46,2,False,True
+S01487,4,Senior DevOps Engineer,Atlassian,72.79,2,False,True
+S02757,4,Senior Consultant,Microsoft,90.69,2,False,False
+S02548,4,Senior Software Engineer,Flipkart,16.28,2,False,True
+S04255,2,Cloud Engineer,TCS,13.08,1,False,False
+S02234,3,Software Engineer,Atlassian,72.28,1,False,False
+S04452,5,Senior Software Engineer,Accenture,16.7,2,True,False
+S01177,4,Senior Consultant,Swiggy,98.83,2,False,True
+S03412,5,DevOps Architect,Atlassian,24.36,3,False,True
+S00644,5,Staff Software Engineer,Infosys,25.61,4,False,True
+S01825,3,Data Analyst,Cognizant,68.53,1,False,True
+S04821,2,Systems Engineer,Capgemini,12.23,1,False,False
+S00852,2,Cloud Engineer,TCS,10.73,1,False,False
+S02911,5,Senior Data Analyst,Microsoft,102.53,2,False,True
+S00542,3,Senior Software Engineer,Microsoft,18.66,2,False,True
+S01322,2,Graduate Trainee Engineer,Cognizant,14.07,0,False,True
+S01233,4,Senior DevOps Engineer,Accenture,16.91,2,False,True
+S02800,4,Senior Consultant,Salesforce,17.13,2,False,True
+S00479,1,Associate Software Engineer,Zomato,63.68,0,False,True
+S03611,1,Associate Software Engineer,Infosys,9.25,0,True,False
+S01745,1,Junior DevOps Engineer,Infosys,10.1,0,True,False
+S04004,2,Consultant,Salesforce,71.37,1,False,True
+S04073,5,Senior DevOps Engineer,TCS,17.87,2,False,False
+S04809,4,Senior DevOps Engineer,Wipro,85.51,2,False,True
+S00143,3,Consultant,Swiggy,16.41,1,False,True
+S01536,2,Data Analyst,TCS,12.35,1,False,False
+S04136,3,Senior Consultant,Oracle,17.85,2,False,True
+S02773,1,Associate Analyst,Uber,11.17,0,False,True
+S01442,3,Software Engineer,TCS,15.41,1,False,False
+S04117,2,Junior DevOps Engineer,Amazon,52.0,0,True,False
+S00874,3,Senior Consultant,TCS,14.58,2,False,False
+S01206,1,Junior DevOps Engineer,Atlassian,50.63,0,True,False
+S04092,2,Senior DevOps Engineer,Accenture,15.12,2,True,True
+S02935,3,Senior Data Analyst,Wipro,13.64,2,False,False
+S04177,3,Lead Software Engineer,Swiggy,18.96,3,False,True
+S01782,5,Senior DevOps Engineer,Cisco,18.21,2,False,True
+S04497,2,Senior Software Engineer,Infosys,15.54,2,False,True
+S04351,2,Software Engineer,TCS,13.6,1,True,True
+S02621,5,Engineering Manager,LTI Mindtree,25.46,4,False,True
+S02643,2,Data Analyst,Accenture,10.08,1,True,False
+S03220,1,Associate Software Engineer,Cognizant,8.6,0,True,False
+S00278,5,Principal Architect,Cognizant,23.47,4,False,True
+S03240,2,Junior DevOps Engineer,TCS,11.39,0,True,False
+S01708,2,Consultant,Zomato,13.4,1,False,True
+S02287,1,Associate Software Engineer,Adobe,52.41,0,False,False
+S01806,1,Associate Software Engineer,Adobe,44.37,0,True,False
+S01235,1,Junior DevOps Engineer,Accenture,10.17,0,False,False
+S03086,4,Senior DevOps Engineer,Infosys,18.35,2,False,False
+S04656,3,Senior DevOps Engineer,Infosys,15.2,2,False,False
+S01220,2,Software Engineer,Cognizant,11.18,1,False,False
+S00196,3,Software Engineer,Infosys,12.88,1,False,False
+S04098,1,Associate Analyst,Oracle,10.8,0,False,True
+S03750,5,Senior DevOps Engineer,Swiggy,105.83,2,False,True
+S04846,3,Senior Software Engineer,Capgemini,17.23,2,False,True
+S00921,4,Technical Lead,Salesforce,115.5,3,False,True
+S02723,2,Systems Engineer,Flipkart,14.55,1,True,True
+S04810,2,Associate Software Engineer,TCS,10.41,0,False,False
+S00201,3,Technical Lead,Razorpay,20.92,3,False,True
+S04783,4,Senior Data Analyst,Salesforce,17.79,2,False,True
+S01639,2,Systems Engineer,Swiggy,14.2,1,False,True
+S01865,1,Associate Software Engineer,Flipkart,56.92,0,False,True
+S00767,1,Graduate Trainee Engineer,LTI Mindtree,10.8,0,False,False
+S00014,3,Technical Lead,Wipro,96.25,3,False,True
+S02712,4,Senior Consultant,Atlassian,20.28,2,False,True
+S03490,1,Junior DevOps Engineer,Accenture,60.13,0,False,True
+S04646,3,Senior Data Analyst,Wipro,15.73,2,True,False
+S04550,2,Software Engineer,Infosys,11.6,1,True,False
+S00384,5,Technical Lead,TCS,18.89,3,True,True
+S03355,4,Senior DevOps Engineer,TCS,16.53,2,False,False
+S01078,4,Systems Engineer,LTI Mindtree,16.8,1,False,True
+S01171,4,Senior Consultant,Swiggy,19.26,2,False,True
+S02372,4,Senior Software Engineer,Atlassian,20.66,2,False,True
+S03841,1,Cloud Engineer,Cognizant,12.46,1,False,False
+S00671,1,Associate Analyst,Accenture,8.42,0,False,False
+S03742,3,Senior Software Engineer,Microsoft,72.84,2,False,False
+S00207,1,Associate Analyst,Infosys,9.87,0,False,False
+S04151,5,DevOps Architect,Cisco,17.72,3,False,True
+S03224,1,Junior DevOps Engineer,TCS,8.75,0,False,False
+S04807,2,Senior Software Engineer,Microsoft,67.0,2,False,False
+S02181,2,Associate Analyst,Cisco,14.06,0,False,True
+S03756,4,Senior Consultant,Infosys,16.12,2,True,False
+S04461,3,Consultant,Amazon,59.93,1,False,False
+S04319,3,Consultant,Paytm,76.14,1,True,True
+S04145,1,Graduate Trainee Engineer,Amazon,48.52,0,True,False
+S04519,1,Associate Software Engineer,Cisco,12.39,0,True,True
+S03185,3,Senior Software Engineer,Microsoft,92.79,2,False,True
+S02926,4,Senior Data Analyst,Google,20.22,2,True,True
+S04312,4,Senior Consultant,Flipkart,17.13,2,False,True
+S00761,2,Cloud Engineer,Accenture,63.51,1,False,True
+S04941,2,Associate Software Engineer,Uber,58.29,0,False,False
+S01058,4,Senior Software Engineer,Capgemini,15.82,2,True,True
+S01989,4,Systems Engineer,Google,74.42,1,False,False
+S04233,2,Graduate Trainee Engineer,Cognizant,10.92,0,False,False
+S04962,3,Senior Consultant,Zomato,88.88,2,True,True
+S01986,1,Graduate Trainee Engineer,Cognizant,10.72,0,False,False
+S04146,3,Senior Consultant,Zomato,79.31,2,False,True
+S00829,3,Senior Data Analyst,Salesforce,85.26,2,False,True
+S02535,2,Associate Analyst,Zomato,12.01,0,False,True
+S00421,2,Associate Analyst,Salesforce,13.29,0,True,True
+S02112,2,Graduate Trainee Engineer,Wipro,9.01,0,False,False
+S04082,2,Data Analyst,Google,15.33,1,False,True
+S02118,3,Systems Engineer,Adobe,14.46,1,False,True
+S00204,5,Senior Data Analyst,TCS,15.09,2,True,False
+S03676,1,Graduate Trainee Engineer,TCS,10.43,0,True,False
+S04914,5,Senior Technical Lead,Microsoft,103.84,4,False,False
+S04274,2,Cloud Engineer,Cognizant,16.13,1,False,True
+S01091,4,Data Science Lead,Flipkart,20.88,3,False,True
+S01876,4,Software Engineer,Zomato,19.32,1,False,True
+S02563,2,Consultant,Microsoft,14.39,1,True,True
+S01567,3,Consultant,Microsoft,64.52,1,False,False
+S04796,3,Cloud Engineer,Paytm,15.53,1,False,True
+S00134,1,Associate Software Engineer,Accenture,11.14,0,False,False
+S03895,1,Junior DevOps Engineer,Razorpay,56.62,0,False,True
+S01569,3,Data Science Lead,Cognizant,17.35,3,False,False
+S02343,2,Software Engineer,Salesforce,14.53,1,True,True
+S01656,2,Graduate Trainee Engineer,Capgemini,12.38,0,True,False
+S00513,2,Systems Engineer,Adobe,16.26,1,False,True
+S00265,2,Data Analyst,Amazon,62.52,1,False,False
+S04996,2,Associate Software Engineer,Capgemini,11.81,0,False,True
+S03188,1,Associate Analyst,Infosys,11.06,0,True,False
+S03281,4,Senior Consultant,Wipro,18.25,2,False,True
+S00418,1,Graduate Trainee Engineer,Amazon,50.32,0,False,False
+S02336,2,Graduate Trainee Engineer,Uber,13.7,0,True,True
+S01433,1,Associate Analyst,TCS,9.46,0,True,False
+S02192,2,Associate Analyst,Zomato,56.53,0,False,True
+S04813,3,Data Analyst,Razorpay,17.25,1,True,True
+S00039,2,Data Analyst,Adobe,56.62,1,True,False
+S01026,2,Software Engineer,Microsoft,14.64,1,True,True
+S03485,1,Associate Software Engineer,Cognizant,62.13,0,False,True
+S00664,4,Data Science Lead,LTI Mindtree,16.3,3,False,False
+S04135,3,Consultant,Adobe,71.71,1,False,False
+S01036,3,Senior Software Engineer,TCS,13.85,2,False,False
+S03930,3,Cloud Engineer,TCS,80.28,1,True,True
+S02240,2,Senior DevOps Engineer,Cisco,73.81,2,False,False
+S01635,4,Senior Consultant,Flipkart,17.95,2,False,True
+S00071,1,Graduate Trainee Engineer,LTI Mindtree,59.98,0,False,True
+S03351,1,Associate Software Engineer,TCS,8.6,0,False,False
+S01751,1,Junior DevOps Engineer,Cognizant,10.85,0,False,True
+S03469,1,Cloud Engineer,Accenture,11.03,1,True,False
+S03242,1,Data Analyst,Infosys,10.49,1,False,False
+S00499,3,Senior Data Analyst,Infosys,17.83,2,False,True
+S02437,5,Senior DevOps Engineer,Swiggy,23.41,2,False,True
+S04211,2,Graduate Trainee Engineer,Swiggy,11.98,0,False,True
+S02373,2,Data Analyst,Infosys,12.79,1,False,False
+S00758,2,Consultant,Salesforce,13.85,1,False,True
+S01355,3,Software Engineer,TCS,11.17,1,False,False
+S03387,1,Associate Software Engineer,Wipro,8.39,0,True,False
+S01699,4,Software Engineer,Cisco,19.63,1,True,True
+S02236,3,Data Analyst,Razorpay,81.07,1,False,True
+S03088,2,Cloud Engineer,Accenture,13.15,1,True,False
+S00802,1,Associate Software Engineer,Uber,42.24,0,False,False
+S01534,2,Data Analyst,Cognizant,11.58,1,False,False
+S00354,3,Data Analyst,Accenture,12.85,1,False,False
+S03106,5,Senior Software Engineer,Zomato,19.46,2,False,True
+S00860,2,Systems Engineer,Infosys,14.14,1,False,True
+S00200,1,Graduate Trainee Engineer,TCS,8.42,0,False,False
+S03620,4,Data Science Lead,Cognizant,91.08,3,False,True
+S00124,2,Consultant,Cognizant,12.35,1,False,False
+S01124,2,Junior DevOps Engineer,Accenture,10.42,0,False,False
+S02103,4,Senior Software Engineer,Cognizant,16.63,2,True,True
+S00369,3,Senior Consultant,Cisco,16.55,2,True,True
+S02301,3,Senior Software Engineer,Oracle,16.9,2,False,True
+S02726,2,Data Analyst,TCS,12.18,1,True,False
+S03112,5,Engineering Manager,Google,106.17,4,False,False
+S03652,3,Senior DevOps Engineer,Amazon,85.7,2,False,True
+S03705,2,Consultant,Adobe,13.26,1,True,True
+S04256,1,Associate Analyst,TCS,9.66,0,True,False
+S02039,4,Systems Engineer,TCS,13.8,1,True,False
+S01194,2,Associate Analyst,Accenture,11.2,0,False,False
+S04636,2,Software Engineer,Microsoft,16.09,1,False,True
+S00426,5,Technical Lead,Oracle,118.81,3,False,True
+S02764,2,Data Analyst,Amazon,58.03,1,False,False
+S04603,2,Data Analyst,Amazon,60.09,1,False,False
+S02792,4,Senior Software Engineer,Razorpay,20.59,2,False,True
+S00422,2,Senior Data Analyst,Google,72.59,2,False,False
+S03587,4,Lead Software Engineer,Google,19.17,3,True,True
+S03338,4,Cloud Engineer,Infosys,90.48,1,False,True
+S04215,5,Lead Software Engineer,Microsoft,20.57,3,False,True
+S02230,1,Junior DevOps Engineer,TCS,9.31,0,False,False
+S04223,2,Cloud Engineer,Infosys,13.74,1,False,True
+S01249,5,Data Science Lead,Wipro,17.84,3,False,False
+S00821,2,Graduate Trainee Engineer,Accenture,12.09,0,False,False
+S03612,4,Senior Data Analyst,Salesforce,106.11,2,True,True
+S04970,3,Senior DevOps Engineer,Salesforce,14.79,2,False,True
+S00480,1,Associate Software Engineer,Wipro,8.61,0,True,False
+S04721,3,Senior Consultant,Infosys,15.34,2,False,False
+S00935,5,Staff Software Engineer,Accenture,120.63,4,False,True
+S02497,2,Associate Analyst,Accenture,11.89,0,False,False
+S03941,1,Graduate Trainee Engineer,Infosys,9.1,0,False,False
+S01466,1,Associate Analyst,Capgemini,9.07,0,False,False
+S04081,5,Senior DevOps Engineer,Razorpay,20.19,2,False,True
+S00558,1,Junior DevOps Engineer,Cognizant,12.44,0,False,True
+S02560,2,Data Analyst,Atlassian,13.53,1,False,True
+S01929,3,Consultant,Atlassian,12.58,1,False,True
+S02227,1,Junior DevOps Engineer,Wipro,10.88,0,True,False
+S03727,2,Graduate Trainee Engineer,Salesforce,12.98,0,False,True
+S03826,2,Senior DevOps Engineer,Accenture,75.98,2,False,True
+S00721,3,Systems Engineer,Uber,17.51,1,True,True
+S01046,2,Associate Analyst,Microsoft,53.78,0,False,False
+S04910,4,Senior Consultant,Uber,81.91,2,False,True
+S00333,2,Senior DevOps Engineer,Infosys,13.7,2,True,False
+S00710,3,Consultant,Uber,71.22,1,True,False
+S02292,3,Senior Consultant,Wipro,93.07,2,True,True
+S01038,4,Data Analyst,Accenture,18.54,1,False,True
+S01609,4,Data Science Lead,Wipro,19.72,3,False,False
+S04592,4,Senior DevOps Engineer,Capgemini,18.02,2,False,True
+S03855,2,Senior DevOps Engineer,Razorpay,73.57,2,False,True
+S00896,1,Graduate Trainee Engineer,Cognizant,10.25,0,False,False
+S01368,3,Consultant,Wipro,12.15,1,True,False
+S02250,2,Software Engineer,Microsoft,60.15,1,False,False
+S02851,1,Junior DevOps Engineer,Google,11.56,0,False,True
+S04037,4,Systems Engineer,Paytm,18.06,1,False,True
+S01973,4,Senior Data Analyst,Zomato,97.98,2,False,True
+S02327,1,Graduate Trainee Engineer,Infosys,8.95,0,False,False
+S00430,1,Associate Software Engineer,Amazon,52.43,0,False,False
+S03657,3,Senior Consultant,LTI Mindtree,12.11,2,False,False
+S01515,5,Data Science Lead,Wipro,21.25,3,False,False
+S02447,2,Consultant,LTI Mindtree,11.76,1,False,True
+S03093,2,Senior DevOps Engineer,Uber,73.43,2,False,False
+S02755,2,Graduate Trainee Engineer,Infosys,15.13,0,False,True
+S01948,2,Associate Software Engineer,Cognizant,9.86,0,False,False
+S03708,4,Systems Engineer,Adobe,74.54,1,False,False
+S00992,1,Associate Software Engineer,Cognizant,8.94,0,False,False
+S01877,4,Senior Software Engineer,Paytm,18.03,2,False,True
+S04591,1,Graduate Trainee Engineer,TCS,10.47,0,False,False
+S00685,2,Associate Software Engineer,Google,48.97,0,True,False
+S03129,5,Data Science Lead,TCS,19.28,3,False,False
+S01100,1,Cloud Engineer,TCS,11.37,1,False,False
+S03370,5,Principal Architect,TCS,21.55,4,False,True
+S03070,1,Graduate Trainee Engineer,Amazon,49.48,0,False,False
+S02149,4,Data Analyst,Paytm,15.36,1,False,True
+S00916,2,Consultant,LTI Mindtree,13.91,1,False,True
+S01923,3,DevOps Architect,Infosys,18.19,3,True,True
+S02891,1,Junior DevOps Engineer,Infosys,9.92,0,False,False
+S03557,3,Senior Consultant,Zomato,16.53,2,False,True
+S00249,1,Associate Analyst,Wipro,12.28,0,True,True
+S00303,5,Data Science Lead,Oracle,19.27,3,False,True
+S02000,2,Graduate Trainee Engineer,Microsoft,11.99,0,False,True
+S04811,2,Software Engineer,TCS,12.87,1,False,False
+S02115,4,Technical Lead,Amazon,20.01,3,True,True
+S02956,1,Associate Software Engineer,TCS,8.57,0,True,False
+S03475,2,Software Engineer,Cognizant,10.59,1,False,False
+S02388,2,Senior Data Analyst,Wipro,13.08,2,False,False
+S00845,1,Associate Analyst,Google,51.93,0,False,False
+S04260,2,Consultant,Infosys,13.88,1,False,True
+S04216,4,Technical Lead,Swiggy,19.94,3,False,True
+S01665,2,Junior DevOps Engineer,Infosys,12.07,0,False,False
+S03996,2,Data Analyst,Adobe,15.2,1,True,True
+S03662,2,Data Analyst,Infosys,11.55,1,False,False
+S02333,2,Associate Analyst,TCS,57.98,0,False,True
+S03760,4,Senior DevOps Engineer,Swiggy,17.92,2,False,True
+S00341,2,Graduate Trainee Engineer,Cisco,43.7,0,True,False
+S03748,5,Senior Technical Lead,Paytm,27.59,4,False,True
+S03476,4,Senior Consultant,Cognizant,19.32,2,False,True
+S04140,1,Consultant,Uber,70.12,1,False,True
+S04108,3,Systems Engineer,Wipro,12.74,1,False,False
+S02877,2,Senior Software Engineer,Wipro,13.32,2,False,False
+S02496,1,Junior DevOps Engineer,Cognizant,9.16,0,False,False
+S03732,1,Associate Software Engineer,Microsoft,10.16,0,True,True
+S01716,2,Cloud Engineer,Zomato,64.42,1,True,True
+S02520,1,Associate Analyst,Infosys,9.32,0,False,False
+S04379,5,Senior Consultant,Uber,18.78,2,False,True
+S00021,2,Associate Analyst,Accenture,10.46,0,True,False
+S03150,1,Junior DevOps Engineer,Oracle,13.08,0,True,True
+S02867,2,Senior Consultant,TCS,11.75,2,False,False
+S01821,1,Graduate Trainee Engineer,Cognizant,10.1,0,True,False
+S01528,3,Data Analyst,Zomato,69.04,1,True,True
+S02918,3,Senior DevOps Engineer,Atlassian,19.37,2,False,True
+S00314,2,Junior DevOps Engineer,Adobe,13.99,0,False,True
+S02013,3,Senior Software Engineer,Paytm,17.62,2,True,True
+S00744,3,Cloud Engineer,Cisco,15.54,1,False,True
+S03753,3,Senior Data Analyst,Amazon,16.67,2,False,True
+S00032,2,Graduate Trainee Engineer,Accenture,10.82,0,False,False
+S04157,2,Cloud Engineer,Cisco,67.39,1,False,True
+S00501,3,Senior DevOps Engineer,TCS,13.59,2,True,True
+S02751,2,Cloud Engineer,Wipro,12.46,1,False,False
+S03270,4,Software Engineer,Wipro,16.33,1,True,False
+S04734,3,Senior DevOps Engineer,Uber,81.12,2,False,True
+S02069,5,Data Science Lead,Adobe,24.83,3,True,True
+S01225,2,Senior Data Analyst,Swiggy,15.07,2,True,True
+S01452,5,Senior DevOps Engineer,Oracle,18.22,2,False,True
+S00456,3,Senior Consultant,Google,72.26,2,False,False
+S00674,5,Senior Technical Lead,Accenture,21.86,4,False,False
+S02254,3,Cloud Engineer,Oracle,79.14,1,False,True
+S03080,3,Senior Consultant,Wipro,17.54,2,True,False
+S03586,3,Senior Consultant,Salesforce,18.31,2,False,True
+S01311,1,Consultant,TCS,12.53,1,False,False
+S00370,3,Senior Data Analyst,Infosys,20.98,2,False,True
+S01019,1,Associate Analyst,Adobe,46.15,0,False,False
+S02194,2,Consultant,Wipro,13.59,1,False,True
+S01137,1,Graduate Trainee Engineer,TCS,8.97,0,False,False
+S02778,2,Associate Analyst,Accenture,10.38,0,False,False
+S01339,5,Senior Data Analyst,Wipro,15.05,2,True,False
+S00945,4,Consultant,Flipkart,88.74,1,False,True
+S01413,4,Data Analyst,Capgemini,18.45,1,True,True
+S04473,4,Senior Software Engineer,Infosys,16.55,2,True,False
+S03368,2,Associate Software Engineer,Wipro,11.52,0,True,False
+S04397,2,Software Engineer,Accenture,15.93,1,False,True
+S01965,4,Data Analyst,Amazon,19.06,1,True,True
+S04803,2,Software Engineer,Infosys,12.15,1,False,False
+S02385,3,Software Engineer,Infosys,15.55,1,False,False
+S04722,4,Cloud Engineer,Oracle,19.46,1,False,True
+S01618,3,Data Science Lead,Razorpay,16.31,3,False,True
+S03904,2,Software Engineer,Wipro,11.24,1,False,False
+S00347,3,Cloud Engineer,Accenture,86.91,1,False,True
+S04258,2,Systems Engineer,Infosys,11.19,1,False,False
+S03082,2,Consultant,Cognizant,15.09,1,False,True
+S01021,2,Graduate Trainee Engineer,TCS,9.43,0,False,False
+S01925,2,Cloud Engineer,Cisco,64.71,1,False,False
+S01507,4,Senior DevOps Engineer,Zomato,99.16,2,False,True
+S00682,2,Cloud Engineer,Amazon,15.36,1,False,True
+S00974,3,Consultant,Infosys,15.31,1,False,False
+S00211,2,Systems Engineer,Cognizant,11.76,1,False,False
+S04281,2,Junior DevOps Engineer,Zomato,12.03,0,False,True
+S04940,2,Consultant,Accenture,11.81,1,False,False
+S00318,2,Cloud Engineer,Wipro,10.71,1,False,False
+S03802,2,Associate Software Engineer,TCS,11.87,0,False,False
+S03665,4,Senior Data Analyst,Cognizant,16.41,2,False,True
+S03487,2,Junior DevOps Engineer,TCS,10.7,0,False,False
+S03881,3,Senior Software Engineer,Wipro,12.77,2,False,False
+S01755,2,Senior Software Engineer,LTI Mindtree,17.64,2,False,True
+S02976,4,Consultant,Cognizant,15.48,1,False,False
+S00626,1,Associate Analyst,Wipro,10.44,0,True,False
+S03529,3,Senior DevOps Engineer,Capgemini,15.63,2,False,False
+S02183,1,Associate Analyst,Capgemini,9.15,0,False,False
+S03806,1,Associate Software Engineer,TCS,9.43,0,False,False
+S03406,1,Systems Engineer,Infosys,10.4,1,False,False
+S00914,4,Senior Software Engineer,Cognizant,98.67,2,False,True
+S00777,4,Technical Lead,Infosys,19.69,3,True,True
+S03028,4,Lead Software Engineer,Salesforce,20.73,3,False,True
+S04625,1,Associate Analyst,Infosys,8.97,0,False,False
+S02164,1,Graduate Trainee Engineer,Wipro,61.72,0,False,True
+S01875,2,Software Engineer,Uber,12.31,1,True,True
+S04949,2,Data Analyst,Amazon,11.44,1,False,True
+S00766,3,Senior Software Engineer,Oracle,88.55,2,True,True
+S03981,4,Senior Software Engineer,Cisco,16.79,2,False,True
+S00025,2,Software Engineer,Capgemini,10.94,1,True,False
+S02133,3,Data Analyst,Amazon,66.98,1,True,False
+S00405,1,Graduate Trainee Engineer,TCS,9.03,0,True,False
+S00607,1,Software Engineer,Cognizant,11.56,1,False,False
+S03157,1,Graduate Trainee Engineer,Capgemini,9.68,0,False,False
+S04531,5,Data Science Lead,Zomato,92.14,3,False,True
+S02143,2,Junior DevOps Engineer,Razorpay,11.38,0,True,True
+S00604,1,Associate Analyst,Oracle,12.4,0,False,True
+S02014,3,Consultant,Wipro,13.27,1,True,False
+S00336,5,Data Science Lead,Flipkart,19.91,3,True,True
+S00737,1,Junior DevOps Engineer,TCS,8.74,0,True,False
+S04589,2,Senior Data Analyst,Capgemini,73.06,2,False,True
+S03214,5,Senior Software Engineer,Microsoft,77.86,2,False,False
+S04367,3,Senior Software Engineer,Microsoft,64.85,2,True,False
+S01349,2,Graduate Trainee Engineer,Uber,14.94,0,True,True
+S00337,2,Junior DevOps Engineer,Cisco,55.52,0,False,False
+S04546,4,Senior Consultant,Capgemini,18.39,2,False,True
+S01263,2,Junior DevOps Engineer,Amazon,56.23,0,True,False
+S00520,4,Senior Software Engineer,Zomato,15.08,2,True,True
+S01754,2,Data Analyst,LTI Mindtree,11.99,1,False,False
+S04499,2,Consultant,Cognizant,13.93,1,True,True
+S00754,1,Associate Software Engineer,Accenture,8.86,0,False,False
+S03271,5,Lead Software Engineer,Infosys,23.13,3,False,False
+S03371,2,Systems Engineer,Wipro,10.88,1,False,False
+S01721,2,Consultant,Uber,12.87,1,False,True
+S02019,2,Data Analyst,Paytm,14.53,1,True,True
+S00454,1,Graduate Trainee Engineer,Infosys,10.69,0,False,False
+S01402,5,Staff Software Engineer,Wipro,17.37,4,False,False
+S02245,2,Junior DevOps Engineer,Capgemini,11.98,0,True,False
+S01204,3,Data Analyst,Wipro,13.54,1,False,False
+S03060,2,Junior DevOps Engineer,Infosys,11.49,0,False,False
+S03040,2,Systems Engineer,Google,14.01,1,False,True
+S04697,1,Associate Software Engineer,Microsoft,42.77,0,False,False
+S00009,5,Senior Data Analyst,Zomato,106.18,2,False,True
+S03664,2,Cloud Engineer,Razorpay,74.1,1,True,True
+S01120,3,Cloud Engineer,Infosys,14.53,1,True,False
+S00012,1,Associate Software Engineer,Amazon,11.76,0,False,True
+S03570,2,Junior DevOps Engineer,Cognizant,10.47,0,True,False
+S01306,2,Cloud Engineer,TCS,11.47,1,False,False
+S00527,4,Software Engineer,Capgemini,14.6,1,True,True
+S02519,5,Engineering Manager,Google,95.64,4,True,False
+S01294,2,Junior DevOps Engineer,Infosys,11.94,0,True,False
+S00557,5,Data Science Lead,Adobe,22.9,3,False,True
+S02136,3,Consultant,Google,15.63,1,False,True
+S03345,4,Senior Software Engineer,Infosys,16.29,2,True,False
+S03092,3,Senior Data Analyst,Accenture,14.78,2,False,False
+S02857,3,Senior Software Engineer,Accenture,84.82,2,False,True
+S02012,4,DevOps Architect,Zomato,19.6,3,False,True
+S03697,2,Associate Software Engineer,Wipro,9.35,0,False,False
+S03017,2,Cloud Engineer,Zomato,14.91,1,False,True
+S00638,1,Associate Software Engineer,Capgemini,9.95,0,True,False
+S01610,4,Senior DevOps Engineer,Flipkart,18.17,2,False,True
+S03147,4,Senior DevOps Engineer,Wipro,21.7,2,False,True
+S00724,2,Junior DevOps Engineer,Microsoft,59.59,0,False,True
+S01677,3,Consultant,Uber,15.65,1,False,True
+S03905,4,Technical Lead,Razorpay,105.67,3,False,True
+S01030,1,Graduate Trainee Engineer,Swiggy,12.87,0,False,True
+S01447,1,Graduate Trainee Engineer,Paytm,55.13,0,False,True
+S04971,1,Junior DevOps Engineer,TCS,8.6,0,False,False
+S01518,3,Senior Consultant,Accenture,15.61,2,False,False
+S03055,1,Associate Software Engineer,Capgemini,10.34,0,False,False
+S02753,1,Junior DevOps Engineer,Oracle,12.47,0,True,True
+S00525,3,Cloud Engineer,Accenture,13.0,1,False,False
+S02927,4,DevOps Architect,Accenture,15.41,3,False,False
+S02734,3,Consultant,Accenture,13.18,1,False,False
+S03827,5,Principal Architect,TCS,24.26,4,False,False
+S03259,2,Associate Analyst,Wipro,9.28,0,False,False
+S00170,3,Senior Data Analyst,Cisco,15.98,2,False,True
+S00051,4,Senior Data Analyst,TCS,17.45,2,False,True
+S00351,1,Associate Analyst,TCS,10.52,0,False,False
+S01278,1,Associate Software Engineer,Google,45.66,0,False,False
+S01944,1,Associate Analyst,Wipro,9.23,0,False,False
+S02932,1,Graduate Trainee Engineer,Amazon,51.27,0,False,False
+S00202,5,Senior Consultant,LTI Mindtree,89.63,2,False,True
+S03682,1,Associate Software Engineer,Google,53.36,0,False,False
+S04342,2,Data Analyst,Infosys,14.18,1,False,False
+S04610,1,Junior DevOps Engineer,Uber,47.41,0,False,False
+S04756,5,Principal Architect,TCS,19.31,4,False,False
+S04933,3,Software Engineer,Wipro,12.95,1,False,False
+S03565,2,Software Engineer,Paytm,72.05,1,False,True
+S02979,5,Lead Software Engineer,TCS,20.71,3,False,False
+S00867,3,Cloud Engineer,TCS,14.07,1,False,False
+S04208,2,Associate Software Engineer,TCS,11.15,0,True,False
+S03528,3,Systems Engineer,TCS,13.28,1,False,True
+S02431,3,Lead Software Engineer,Capgemini,16.12,3,False,False
+S02438,3,Senior DevOps Engineer,Capgemini,14.63,2,True,False
+S03167,2,Systems Engineer,Google,66.76,1,False,False
+S03598,1,Junior DevOps Engineer,Accenture,9.48,0,False,False
+S02822,5,Technical Lead,Infosys,17.57,3,False,False
+S01623,3,Senior Data Analyst,Microsoft,16.86,2,False,True
+S00875,4,Senior Consultant,TCS,93.9,2,False,True
+S00191,5,Engineering Manager,Amazon,103.4,4,False,True
+S00058,3,Senior DevOps Engineer,Cognizant,16.52,2,False,True
+S03747,2,Senior Consultant,Uber,15.21,2,False,True
+S01241,2,Consultant,Microsoft,15.75,1,False,True
+S01756,3,Data Science Lead,Cognizant,17.95,3,False,False
+S00139,3,Senior DevOps Engineer,Oracle,19.09,2,False,True
+S01554,2,Graduate Trainee Engineer,Infosys,10.59,0,False,False
+S00696,2,Associate Software Engineer,TCS,11.1,0,False,False
+S01736,5,Engineering Manager,Wipro,18.54,4,False,False
+S01521,1,Associate Software Engineer,Accenture,8.95,0,False,False
+S00017,5,Data Science Lead,Capgemini,23.26,3,False,True
+S01930,3,Senior Data Analyst,Google,17.65,2,False,True
+S02480,1,Graduate Trainee Engineer,TCS,9.47,0,False,False
+S00783,3,Senior Consultant,Amazon,16.94,2,False,True
+S00122,1,Graduate Trainee Engineer,Google,42.98,0,False,False
+S03836,2,Senior Consultant,Paytm,16.78,2,True,True
+S00252,4,Senior Data Analyst,Paytm,17.98,2,False,True
+S00832,2,Data Analyst,LTI Mindtree,12.11,1,False,False
+S02555,5,Senior Data Analyst,Infosys,18.72,2,False,False
+S00550,5,Principal Architect,Flipkart,23.36,4,False,True
+S00495,2,Cloud Engineer,Uber,13.03,1,False,True
+S02677,2,Cloud Engineer,Accenture,74.03,1,False,True
+S04039,1,Junior DevOps Engineer,TCS,10.47,0,True,False
+S02970,4,Senior Consultant,Infosys,18.01,2,True,True
+S01916,5,Data Science Lead,Razorpay,21.12,3,False,True
+S02582,2,Software Engineer,Capgemini,13.64,1,False,True
+S03073,3,Senior Software Engineer,Swiggy,16.45,2,False,True
+S04770,1,Graduate Trainee Engineer,Wipro,9.46,0,True,False
+S04130,2,Cloud Engineer,Accenture,12.85,1,False,True
+S04353,5,Lead Software Engineer,Cisco,22.8,3,True,True
+S01237,2,Software Engineer,TCS,10.62,1,False,False
+S00531,2,Graduate Trainee Engineer,Microsoft,48.01,0,False,False
+S01570,3,Systems Engineer,Flipkart,15.14,1,True,True
+S04507,3,Senior DevOps Engineer,Wipro,15.22,2,False,False
+S01267,2,Senior Software Engineer,Wipro,12.69,2,False,False
+S04308,1,Graduate Trainee Engineer,Wipro,9.42,0,False,False
+S01473,4,Senior Consultant,Amazon,18.5,2,True,True
+S03143,1,Junior DevOps Engineer,Wipro,59.96,0,False,True
+S02542,2,Associate Analyst,Infosys,11.59,0,False,False
+S03372,3,Senior Data Analyst,Infosys,13.59,2,False,False
+S00146,4,Senior Data Analyst,Infosys,16.05,2,False,False
+S03272,5,Lead Software Engineer,Zomato,20.01,3,False,True
+S00218,3,Senior DevOps Engineer,Accenture,16.48,2,False,False
+S01628,1,Associate Analyst,Wipro,9.97,0,False,False
+S04560,1,Junior DevOps Engineer,Wipro,9.42,0,False,False
+S04231,3,Senior Software Engineer,Infosys,15.93,2,False,False
+S00649,4,Systems Engineer,TCS,20.81,1,False,True
+S04664,2,Consultant,Google,56.61,1,False,False
+S00853,1,Associate Software Engineer,TCS,9.37,0,False,False
+S02950,4,Senior Consultant,Oracle,17.06,2,True,True
+S03054,2,Associate Analyst,Flipkart,12.84,0,False,True
+S02023,2,Senior Consultant,Wipro,13.56,2,False,False
+S02813,1,Associate Software Engineer,Infosys,9.44,0,False,False
+S03585,3,Senior Software Engineer,Infosys,15.6,2,True,False
+S00262,5,Data Science Lead,Infosys,23.9,3,True,False
+S00108,1,Associate Analyst,Wipro,12.42,0,False,True
+S00302,3,Data Analyst,Oracle,87.88,1,False,True
+S00473,3,Data Analyst,Infosys,12.21,1,False,False
+S00130,5,Senior DevOps Engineer,Paytm,16.71,2,True,True
+S01304,3,Software Engineer,LTI Mindtree,77.71,1,False,True
+S00174,2,Associate Analyst,Wipro,11.17,0,True,False
+S02965,5,Data Science Lead,Flipkart,18.45,3,True,True
+S04038,4,Senior DevOps Engineer,Amazon,19.02,2,True,True
+S00435,1,Data Analyst,Wipro,10.34,1,False,False
+S00335,5,Senior Software Engineer,Microsoft,18.48,2,False,True
+S02140,4,Senior Consultant,Salesforce,18.59,2,False,True
+S01921,1,Junior DevOps Engineer,Amazon,50.03,0,False,False
+S00323,2,Junior DevOps Engineer,LTI Mindtree,9.91,0,False,False
+S00195,4,Software Engineer,Paytm,14.88,1,False,True
+S03844,3,Senior Data Analyst,Microsoft,80.39,2,False,True
+S04269,3,Data Analyst,Amazon,68.67,1,False,False
+S01293,4,Data Analyst,Flipkart,17.82,1,False,True
+S04155,1,Junior DevOps Engineer,Google,11.35,0,False,True
+S02332,1,Cloud Engineer,Cognizant,10.47,1,True,False
+S00385,4,Senior DevOps Engineer,Amazon,16.41,2,False,True
+S00573,2,Graduate Trainee Engineer,Wipro,12.55,0,False,False
+S01066,2,Consultant,Atlassian,13.11,1,False,True
+S02998,1,Junior DevOps Engineer,Accenture,9.13,0,False,False
+S02051,2,Graduate Trainee Engineer,Oracle,66.78,0,False,True
+S03152,3,Software Engineer,Wipro,15.79,1,False,False
+S00230,2,Graduate Trainee Engineer,Microsoft,50.42,0,False,False
+S01932,4,Senior DevOps Engineer,Zomato,19.35,2,False,True
+S01788,2,Associate Analyst,Accenture,11.49,0,False,False
+S03257,1,Associate Software Engineer,Infosys,9.97,0,False,False
+S00240,1,Associate Software Engineer,LTI Mindtree,8.68,0,False,False
+S01045,5,Technical Lead,Cognizant,20.22,3,False,False
+S00185,2,Systems Engineer,Wipro,11.37,1,False,False
+S04715,2,Cloud Engineer,Wipro,12.6,1,True,False
+S03115,3,Senior Data Analyst,Cognizant,19.84,2,False,True
+S03256,4,Senior Software Engineer,TCS,17.72,2,False,True
+S02869,1,Graduate Trainee Engineer,Wipro,9.37,0,False,False
+S02185,2,Senior Data Analyst,Infosys,13.67,2,False,False
+S04492,4,Senior Data Analyst,Wipro,18.92,2,False,False
+S04352,4,Technical Lead,TCS,15.47,3,False,False
+S04230,1,Cloud Engineer,Google,52.64,1,False,False
+S01838,4,Senior Consultant,Adobe,19.73,2,False,True
+S02347,1,Associate Analyst,Atlassian,45.89,0,False,False
+S00943,4,Senior DevOps Engineer,Swiggy,16.23,2,False,True
+S00538,2,Graduate Trainee Engineer,Swiggy,66.91,0,False,True
+S03911,5,Staff Software Engineer,Accenture,23.42,4,False,True
+S00622,1,Graduate Trainee Engineer,Google,47.16,0,False,False
+S03084,4,Cloud Engineer,Google,16.63,1,False,True
+S00276,3,Senior DevOps Engineer,Atlassian,13.65,2,False,True
+S04188,2,Associate Software Engineer,Cognizant,10.5,0,False,False
+S01640,5,Data Science Lead,Adobe,26.01,3,False,True
+S00578,4,Data Analyst,Razorpay,18.22,1,True,True
+S04359,1,Associate Software Engineer,TCS,8.53,0,False,False
+S04995,1,Graduate Trainee Engineer,Infosys,9.0,0,False,False
+S00226,2,Senior Software Engineer,Cisco,61.16,2,False,False
+S00073,5,Data Science Lead,Uber,19.61,3,False,True
+S03798,2,Data Analyst,TCS,10.84,1,True,False
+S04348,1,Junior DevOps Engineer,Amazon,44.66,0,False,False
+S01070,1,Associate Analyst,Capgemini,8.97,0,False,False
+S01728,2,Systems Engineer,Cognizant,12.49,1,False,False
+S03277,1,Data Analyst,TCS,10.53,1,False,False
+S03952,1,Graduate Trainee Engineer,Paytm,56.39,0,False,True
+S00001,2,Graduate Trainee Engineer,Swiggy,65.24,0,False,True
+S03571,4,Senior DevOps Engineer,Wipro,17.13,2,False,False
+S02593,2,Graduate Trainee Engineer,Wipro,9.87,0,False,False
+S02603,5,Senior Consultant,Swiggy,24.53,2,True,True
+S03186,1,Graduate Trainee Engineer,TCS,8.96,0,False,False
+S00197,3,Senior Data Analyst,Swiggy,91.95,2,False,True
+S03331,4,Software Engineer,Amazon,77.01,1,False,False
+S01655,1,Associate Software Engineer,LTI Mindtree,11.84,0,False,True
+S04427,1,Graduate Trainee Engineer,Accenture,10.27,0,False,False
+S02475,2,Systems Engineer,Accenture,11.72,1,True,False
+S01853,2,Consultant,TCS,11.88,1,True,False
+S03162,1,Software Engineer,Capgemini,12.31,1,False,False
+S04504,1,Associate Analyst,TCS,9.15,0,False,False
+S04127,2,Cloud Engineer,Cognizant,11.27,1,False,False
+S03857,2,Systems Engineer,Zomato,14.31,1,True,True
+S00983,4,Senior Software Engineer,Salesforce,19.65,2,False,True
+S04525,2,Consultant,Capgemini,10.37,1,False,False
+S03354,2,Cloud Engineer,Infosys,13.21,1,False,True
+S03478,5,Senior DevOps Engineer,Flipkart,21.6,2,True,True
+S00246,4,Senior DevOps Engineer,Paytm,15.3,2,False,True
+S01672,2,Associate Software Engineer,Flipkart,13.38,0,False,True
+S03790,3,Senior Data Analyst,Razorpay,19.1,2,False,True
+S01977,2,Graduate Trainee Engineer,Capgemini,62.43,0,True,True
+S02890,3,Senior Consultant,Swiggy,16.19,2,False,True
+S00152,2,Associate Software Engineer,Swiggy,13.77,0,False,True
+S03032,4,Senior DevOps Engineer,Capgemini,15.23,2,True,True
+S02029,4,Senior Software Engineer,Salesforce,19.32,2,False,True
+S04838,1,Junior DevOps Engineer,LTI Mindtree,10.7,0,False,True
+S02934,5,DevOps Architect,Infosys,22.99,3,False,False
+S00519,3,Software Engineer,Oracle,16.1,1,False,True
+S00352,3,Senior Data Analyst,Amazon,16.64,2,False,True
+S02565,3,Cloud Engineer,LTI Mindtree,13.32,1,False,False
+S00910,4,Senior Data Analyst,Swiggy,96.93,2,False,True
+S03707,2,Software Engineer,Cisco,60.3,1,False,False
+S02673,2,Cloud Engineer,Wipro,14.7,1,False,True
+S04805,1,Junior DevOps Engineer,Capgemini,8.28,0,False,False
+S03873,3,Cloud Engineer,Zomato,15.69,1,False,True
+S02959,3,Cloud Engineer,Cognizant,14.97,1,False,False
+S02944,1,Associate Software Engineer,TCS,10.23,0,False,False
+S04174,5,Senior Data Analyst,Cognizant,13.98,2,False,False
+S03287,5,Senior DevOps Engineer,Cognizant,21.55,2,False,True
+S00020,2,Associate Analyst,Cognizant,13.29,0,False,True
+S01071,1,Consultant,Cisco,54.61,1,False,False
+S01710,2,Software Engineer,Cognizant,14.98,1,False,True
+S00591,2,Senior Consultant,Accenture,17.09,2,False,True
+S02104,1,Associate Software Engineer,Accenture,11.39,0,False,False
+S00944,1,Associate Analyst,Cognizant,9.47,0,False,False
+S03392,2,Graduate Trainee Engineer,Infosys,12.54,0,False,True
+S02161,1,Associate Software Engineer,TCS,10.24,0,False,False
+S02198,1,Systems Engineer,Wipro,8.88,1,False,False
+S04466,4,Consultant,Swiggy,16.32,1,False,True
+S04639,2,Data Analyst,Oracle,13.41,1,False,True
+S01096,4,DevOps Architect,TCS,20.34,3,False,False
+S04524,1,Software Engineer,Accenture,9.92,1,False,False
+S04455,2,Software Engineer,Amazon,52.64,1,False,False
+S02733,1,Junior DevOps Engineer,Razorpay,11.59,0,False,True
+S02274,3,Senior Data Analyst,Capgemini,19.65,2,False,True
+S01196,4,Senior Software Engineer,Swiggy,19.23,2,False,True
+S01792,1,Associate Software Engineer,Adobe,11.82,0,True,True
+S00100,5,Senior Data Analyst,Wipro,19.33,2,True,True
+S02078,2,Senior Data Analyst,Google,13.73,2,False,True
+S01775,1,Associate Analyst,Infosys,12.13,0,False,True
+S01287,3,Cloud Engineer,Zomato,15.47,1,False,True
+S02799,5,Data Science Lead,Capgemini,112.04,3,False,True
+S03100,5,Senior Consultant,Microsoft,19.77,2,True,True
+S01693,1,Graduate Trainee Engineer,Cisco,46.7,0,False,False
+S03673,1,Associate Analyst,Wipro,8.28,0,False,False
+S03577,1,Junior DevOps Engineer,TCS,8.79,0,False,False
+S04667,5,Technical Lead,Salesforce,112.36,3,False,True
+S02678,1,Associate Software Engineer,Adobe,11.12,0,False,True
+S02439,4,Senior Data Analyst,Accenture,19.18,2,False,False
+S00907,2,Cloud Engineer,TCS,12.27,1,False,False
+S01629,1,Consultant,Infosys,11.32,1,False,False
+S04774,1,Cloud Engineer,Amazon,52.83,1,False,False
+S00850,3,Cloud Engineer,Capgemini,16.7,1,False,True
+S02291,1,Associate Software Engineer,Capgemini,8.87,0,False,False
+S01890,5,Senior DevOps Engineer,Salesforce,19.43,2,False,True
+S01784,1,Associate Software Engineer,Accenture,10.52,0,False,False
+S03133,2,Senior Software Engineer,Wipro,12.95,2,True,False

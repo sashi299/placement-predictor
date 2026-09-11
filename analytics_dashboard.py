@@ -20,12 +20,20 @@ def load_recruiter_requirements():
         return pd.DataFrame()
     return pd.read_csv(csv_path)
 
+@st.cache_data
+def load_alumni_outcomes():
+    csv_path = BASE_DIR / "alumni_outcomes.csv"
+    if not csv_path.exists():
+        return pd.DataFrame()
+    return pd.read_csv(csv_path)
+
 def render_analytics_dashboard():
     st.title("📊 Placement Analytics Dashboard")
     st.markdown("Comprehensive insights into **branch-wise placement trends**, **skills analytics**, **recruiting companies**, and **salary distributions**.")
     
     df = load_data()
     req_df = load_recruiter_requirements()
+    alumni_df = load_alumni_outcomes()
     
     # ------------------- SIDEBAR FILTERS -------------------
     st.sidebar.markdown("### 🔍 Dashboard Filters")
@@ -88,12 +96,13 @@ def render_analytics_dashboard():
     st.markdown("---")
     
     # ------------------- TABS -------------------
-    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+    tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
         "🏛️ Branch-wise Trends", 
         "💰 Salary Statistics", 
         "💡 Skills Analysis", 
         "🏢 Companies & Recruiters",
         "🎯 Skill-Gap Recommender",
+        "🎓 Alumni Outcome Tracker",
         "📋 Data Explorer & Export"
     ])
     
@@ -623,8 +632,230 @@ def render_analytics_dashboard():
                 })
                 st.dataframe(display_fit_table, use_container_width=True, hide_index=True)
 
-    # ------------------- TAB 6: DATA EXPLORER & EXPORT -------------------
+    # ------------------- TAB 6: ALUMNI OUTCOME TRACKER -------------------
     with tab6:
+        st.subheader("🎓 Alumni Career Trajectory & Outcome Tracker")
+        st.markdown("Analyze post-placement career progression, compensation escalation, promotions, and industry mobility over 1–5 years of professional experience.")
+        
+        if alumni_df.empty:
+            st.error("Alumni outcomes data not found. Please ensure `alumni_outcomes.csv` is present in the workspace.")
+        elif filtered_df.empty:
+            st.info("No student records available based on current sidebar filters. Please adjust your filters.")
+        else:
+            placed_in_filter = filtered_df[filtered_df["placement_status"] == 1]
+            if placed_in_filter.empty:
+                st.info("No placed students match current sidebar filters. Please broaden branch, track, or salary filters to view alumni outcomes.")
+            else:
+                alumni_merged = pd.merge(alumni_df, placed_in_filter, on="student_id", how="inner")
+                if alumni_merged.empty:
+                    st.info("No matching alumni outcome records found for the currently filtered cohorts. Please expand your sidebar filter selections.")
+                else:
+                    # Compute individual metrics
+                    alumni_merged["ctc_growth_lpa"] = alumni_merged["current_ctc_lpa"] - alumni_merged["salary_lpa"]
+                    alumni_merged["ctc_growth_pct"] = (alumni_merged["ctc_growth_lpa"] / alumni_merged["salary_lpa"]) * 100
+                    
+                    # ------------------- ALUMNI KPI METRICS -------------------
+                    avg_growth_pct = alumni_merged["ctc_growth_pct"].mean()
+                    avg_promotions = alumni_merged["promotions_count"].mean()
+                    pct_switched_domain = (alumni_merged["switched_domain"].sum() / len(alumni_merged)) * 100
+                    pct_switched_company = (alumni_merged["switched_company"].sum() / len(alumni_merged)) * 100
+                    
+                    kpi1, kpi2, kpi3, kpi4 = st.columns(4)
+                    with kpi1:
+                        st.metric(
+                            label="📈 Avg CTC Growth",
+                            value=f"+{avg_growth_pct:.1f}%",
+                            delta=f"Avg {alumni_merged['current_ctc_lpa'].mean():.1f} LPA (from {alumni_merged['salary_lpa'].mean():.1f} LPA)",
+                            delta_color="normal"
+                        )
+                    with kpi2:
+                        st.metric(
+                            label="🎖️ Avg Promotions",
+                            value=f"{avg_promotions:.2f}",
+                            delta=f"{int(alumni_merged['promotions_count'].sum()):,} Total Promotions",
+                            delta_color="normal"
+                        )
+                    with kpi3:
+                        st.metric(
+                            label="🏢 Switched Company",
+                            value=f"{pct_switched_company:.1f}%",
+                            delta=f"{int(alumni_merged['switched_company'].sum()):,} / {len(alumni_merged):,} Alumni",
+                            delta_color="off"
+                        )
+                    with kpi4:
+                        st.metric(
+                            label="🔄 Switched Domain",
+                            value=f"{pct_switched_domain:.1f}%",
+                            delta=f"{int(alumni_merged['switched_domain'].sum()):,} Cross-Domain Moves",
+                            delta_color="off"
+                        )
+                    
+                    st.markdown("---")
+                    
+                    # ------------------- CHART 1: CTC GROWTH OVER YEARS -------------------
+                    st.subheader("📈 CTC Progression Over Experience (1–5 Years)")
+                    st.caption("Track how average compensation compounds over time across branches and primary skill specializations.")
+                    
+                    chart_col1, _ = st.columns([1, 1])
+                    with chart_col1:
+                        trajectory_group = st.selectbox(
+                            "Segment Career Growth By:",
+                            options=["Branch", "Primary Skill"],
+                            index=0,
+                            help="Toggle between Academic Branch and Primary Technical Skill to compare salary trajectory curves."
+                        )
+                    
+                    group_column = "branch" if trajectory_group == "Branch" else "primary_skill"
+                    
+                    growth_trend = alumni_merged.groupby(["years_since_placement", group_column]).agg(
+                        Avg_Current_CTC=("current_ctc_lpa", "mean"),
+                        Avg_Starting_CTC=("salary_lpa", "mean"),
+                        Avg_Growth_Pct=("ctc_growth_pct", "mean"),
+                        Alumni_Count=("student_id", "count")
+                    ).round(2).reset_index()
+                    
+                    fig_line = px.line(
+                        growth_trend,
+                        x="years_since_placement",
+                        y="Avg_Current_CTC",
+                        color=group_column,
+                        markers=True,
+                        title=f"Average CTC Progression (LPA) over Years Since Placement by {trajectory_group}",
+                        labels={
+                            "years_since_placement": "Years Since Placement (Experience)",
+                            "Avg_Current_CTC": "Average CTC (LPA)",
+                            group_column: trajectory_group
+                        }
+                    )
+                    fig_line.update_traces(
+                        line=dict(width=3),
+                        marker=dict(size=8),
+                        hovertemplate="<b>%{data.name}</b><br>Experience: %{x} yr(s)<br>Avg CTC: %{y:.2f} LPA<extra></extra>"
+                    )
+                    fig_line.update_layout(
+                        height=420,
+                        xaxis=dict(tickmode="linear", dtick=1),
+                        yaxis=dict(title="Average CTC (LPA)"),
+                        hovermode="x unified",
+                        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
+                    )
+                    st.plotly_chart(fig_line, use_container_width=True)
+                    
+                    st.markdown("---")
+                    
+                    # ------------------- CHART 2: SCATTER PLOT STARTING VS CURRENT CTC -------------------
+                    st.subheader("🎯 Starting Placement CTC vs. Current CTC Trajectory")
+                    st.caption("Each point represents an individual alumnus. Bubble size corresponds to promotions earned, visualizing personal elevation beyond initial campus placement.")
+                    
+                    scatter_df = alumni_merged.copy()
+                    scatter_df["bubble_size"] = scatter_df["promotions_count"] + 1
+                    
+                    fig_scatter = px.scatter(
+                        scatter_df,
+                        x="salary_lpa",
+                        y="current_ctc_lpa",
+                        color="branch",
+                        size="bubble_size",
+                        size_max=16,
+                        hover_name="student_id",
+                        hover_data={
+                            "salary_lpa": ":.2f",
+                            "current_ctc_lpa": ":.2f",
+                            "hiring_company": True,
+                            "current_company": True,
+                            "current_designation": True,
+                            "years_since_placement": True,
+                            "promotions_count": True,
+                            "bubble_size": False
+                        },
+                        labels={
+                            "salary_lpa": "Starting Placement CTC (LPA)",
+                            "current_ctc_lpa": "Current Compensation (LPA)",
+                            "branch": "Branch",
+                            "hiring_company": "Initial Campus Recruiter",
+                            "current_company": "Current Employer",
+                            "current_designation": "Current Designation",
+                            "years_since_placement": "Years Out",
+                            "promotions_count": "Promotions Count"
+                        },
+                        title="Starting CTC vs Current CTC (Sized by Promotions Count)"
+                    )
+                    
+                    # Add baseline diagonal line
+                    max_chart_val = float(max(scatter_df["salary_lpa"].max(), scatter_df["current_ctc_lpa"].max())) * 1.05
+                    fig_scatter.add_shape(
+                        type="line",
+                        line=dict(dash="dash", color="#7f8c8d", width=1.5),
+                        x0=0, y0=0, x1=max_chart_val, y1=max_chart_val
+                    )
+                    fig_scatter.add_annotation(
+                        x=max_chart_val * 0.75,
+                        y=max_chart_val * 0.75,
+                        text="Baseline (0% Growth)",
+                        showarrow=False,
+                        font=dict(color="#7f8c8d", size=11),
+                        yshift=12
+                    )
+                    fig_scatter.update_layout(
+                        height=420,
+                        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
+                    )
+                    st.plotly_chart(fig_scatter, use_container_width=True)
+                    
+                    st.markdown("---")
+                    
+                    # ------------------- TABLE: CAREER GROWTH RANKINGS -------------------
+                    st.subheader("🏆 Career Growth Rate Ranking")
+                    st.caption("Benchmark salary compounding rates, promotional velocity, and domain mobility across cohorts.")
+                    
+                    rank_choice = st.radio(
+                        "Rank Career Growth By:",
+                        options=["Branch", "Primary Skill"],
+                        horizontal=True,
+                        help="Select dimension to rank by career growth rate."
+                    )
+                    
+                    target_rank_col = "branch" if rank_choice == "Branch" else "primary_skill"
+                    
+                    table_summary = alumni_merged.groupby(target_rank_col).agg(
+                        Alumni_Count=("student_id", "count"),
+                        Avg_Starting_CTC=("salary_lpa", "mean"),
+                        Avg_Current_CTC=("current_ctc_lpa", "mean"),
+                        Avg_Growth_Pct=("ctc_growth_pct", "mean"),
+                        Avg_Promotions=("promotions_count", "mean"),
+                        Company_Switch_Rate=("switched_company", lambda x: (x.sum() / len(x) * 100)),
+                        Domain_Switch_Rate=("switched_domain", lambda x: (x.sum() / len(x) * 100))
+                    ).round(2).reset_index()
+                    
+                    table_summary = table_summary.sort_values(by="Avg_Growth_Pct", ascending=False)
+                    
+                    if rank_choice == "Branch":
+                        display_rank_table = table_summary.rename(columns={
+                            "branch": "Academic Branch",
+                            "Alumni_Count": "Alumni Sampled",
+                            "Avg_Starting_CTC": "Avg Starting CTC (LPA)",
+                            "Avg_Current_CTC": "Avg Current CTC (LPA)",
+                            "Avg_Growth_Pct": "Avg Career Growth %",
+                            "Avg_Promotions": "Avg Promotions",
+                            "Company_Switch_Rate": "Company Switch %",
+                            "Domain_Switch_Rate": "Domain Switch %"
+                        })
+                    else:
+                        display_rank_table = table_summary.rename(columns={
+                            "primary_skill": "Primary Skill Specialization",
+                            "Alumni_Count": "Alumni Sampled",
+                            "Avg_Starting_CTC": "Avg Starting CTC (LPA)",
+                            "Avg_Current_CTC": "Avg Current CTC (LPA)",
+                            "Avg_Growth_Pct": "Avg Career Growth %",
+                            "Avg_Promotions": "Avg Promotions",
+                            "Company_Switch_Rate": "Company Switch %",
+                            "Domain_Switch_Rate": "Domain Switch %"
+                        })
+                    
+                    st.dataframe(display_rank_table, use_container_width=True, hide_index=True)
+
+    # ------------------- TAB 7: DATA EXPLORER & EXPORT -------------------
+    with tab7:
         st.subheader("Student Placement Records Explorer")
         st.markdown(f"Showing **{len(filtered_df):,}** student records matching current filters.")
         
